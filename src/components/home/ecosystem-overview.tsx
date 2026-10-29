@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { home as copy, technology } from "@/i18n/dictionaries/id";
+import { Icon, IconBadge } from "@/components/ui/icon";
 
 const ecosystems = [
   { name: "Technology", href: "/technology", key: "technology", services: technology.services.map(service => [service[1], `/technology#${service[0]}`]) },
@@ -30,11 +31,11 @@ export function EcosystemOverview() {
           {ecosystems.map((ecosystem, index) => (
             <article key={ecosystem.key} data-ecosystem={ecosystem.key} className={`story-step ecosystem-${ecosystem.key}`}>
               <div data-story-copy>
-                <p className="story-number"><span>0{index + 1}</span><span>{copy.storyLabels[index]}</span></p>
-                <h3 className="display"><Link href={ecosystem.href}>{ecosystem.name}<span aria-hidden="true">↗</span></Link></h3>
+                <p className="story-number"><IconBadge name={(["browser", "palette", "app"] as const)[index]} tone={ecosystem.key} /><span>0{index + 1} / {copy.storyLabels[index]}</span></p>
+                <h3 className="display"><Link href={ecosystem.href}>{ecosystem.name}</Link></h3>
                 <p className="story-description">{copy.overviewDescriptions[index]}</p>
-                <ul className="story-services">{ecosystem.services.map(([label, href]) => <li key={href}><Link href={href}>{label}<span aria-hidden="true">↗</span></Link></li>)}</ul>
-                <Link href={ecosystem.href} className="text-link story-link">{copy.explore} {ecosystem.name}<span aria-hidden="true">↗</span></Link>
+                <ul className="story-services">{ecosystem.services.map(([label, href]) => <li key={href}><Link href={href}>{label}</Link></li>)}</ul>
+                <Link href={ecosystem.href} className="text-link story-link">{copy.explore} {ecosystem.name}<Icon name="arrow-right" /></Link>
               </div>
             </article>
           ))}

@@ -10,4 +10,9 @@ test("portfolio retains source URLs, local assets and embedding exclusion", asyn
     await access(`public${project.image}`);
   }
   assert.equal(technologyProjects.find(p => p.id === "intrax").embeddable, false);
+  const intrax = technologyProjects.find(p => p.id === "intrax");
+  assert.equal(intrax.previewStatus, "pending-server-permission");
+  assert.equal(intrax.previewType, "remote-iframe");
+  assert.equal(intrax.previewUrl, intrax.url);
+  assert.equal(intrax.url, "https://intrax.web.id/");
 });

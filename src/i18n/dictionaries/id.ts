@@ -1,5 +1,6 @@
 export const hero = {
   "title": "Apa yang ingin kamu wujudkan?",
+  "typingTitles": ["Butuh website untuk bisnismu?", "Ingin brand lebih dikenal?", "Mau konten yang lebih menarik?", "Butuh sistem untuk bisnismu?"],
   "description": "Butuh website, konten kreatif, atau solusi digital untuk bisnismu? Temukan layanan yang sesuai dan mulai dari sini.",
   "stage": "Jelajahi apa yang kami kerjakan",
   "scroll": "Kenali TELLU",
@@ -63,6 +64,8 @@ export const portfolio = {
   "screenshot": "Tangkapan layar website",
   "image": "Tangkapan layar proyek",
   "explore": "Jelajahi website",
+  "pending": "Pratinjau menunggu izin dari pengelola website.",
+  "openProject": "Buka Website {name}",
   "unavailable": "Pratinjau langsung belum tersedia. Kamu tetap bisa menjelajahi website aslinya.",
   "requested": "Pratinjau dibuka dari website asli. Jika kosong atau diblokir, kembali ke tangkapan layar atau buka website di tab baru.",
   "idle": "Website akan dimuat setelah kamu memilih Jelajahi website.",

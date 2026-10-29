@@ -5,7 +5,7 @@ import { Hero } from "@/components/home/hero";
 import { EcosystemOverview } from "@/components/home/ecosystem-overview";
 import { HomeMotion } from "@/components/home/home-motion";
 import { FeaturedWork } from "@/components/home/featured-work";
-import { BrandMark, BrandModule } from "@/components/layout/brand-mark";
+import { Icon } from "@/components/ui/icon";
 
 export const metadata: Metadata = pageMetadata;
 
@@ -15,7 +15,6 @@ export default function Home() {
       <HomeMotion>
         <Hero />
         <section id="tentang" className="home-intro page-container">
-          <div className="bridge-symbol" aria-hidden="true"><BrandModule className="bridge-piece" /><BrandModule className="bridge-piece" /><BrandModule className="bridge-piece" /></div>
           <p className="eyebrow" data-reveal>{copy.aboutLabel}</p>
           <h2 className="display" data-reveal>{copy.aboutTitle}</h2>
           <p className="intro-copy" data-reveal>{copy.aboutText}</p>
@@ -30,8 +29,7 @@ export default function Home() {
           </div>
         </section>
         <section id="services" className="home-capabilities">
-          <div className="page-container capabilities-inner"><p className="eyebrow">{copy.servicesLabel}</p><h2 className="display" data-reveal>{copy.servicesTitle}</h2><div className="capability-links">{[["Technology", "/technology"], ["Creative", "/creative"], ["Business", "/business"]].map(([name, href], index) => <Link key={href} href={href}><span>0{index + 1}</span>{name}<span aria-hidden="true">↗</span></Link>)}</div></div>
-          <BrandMark className="capability-mark" />
+          <div className="page-container capabilities-inner"><p className="eyebrow">{copy.servicesLabel}</p><h2 className="display" data-reveal>{copy.servicesTitle}</h2><div className="capability-links">{[["Technology", "/technology"], ["Creative", "/creative"], ["Business", "/business"]].map(([name, href], index) => <Link key={href} href={href}><Icon name={(["browser", "palette", "app"] as const)[index]} />{name}</Link>)}</div></div>
         </section>
         <section id="faq" className="home-faq page-container section-space">
           <div data-reveal><p className="eyebrow">{copy.faqLabel}</p><h2 className="display">{copy.faqTitle}</h2></div>

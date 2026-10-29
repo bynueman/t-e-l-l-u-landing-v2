@@ -11,6 +11,7 @@ import {
   shouldSubmitPrompt,
 } from "@/lib/search-intents";
 import { useSearchQuery } from "./search-provider";
+import { Icon } from "@/components/ui/icon";
 
 export function SmartSearch({
   compact = false,
@@ -86,7 +87,7 @@ export function SmartSearch({
           <>
             <label htmlFor="floating-search" className="sr-only">{copy.label}</label>
             <input ref={inputRef} id="floating-search" value={query} onChange={(event) => changeQuery(event.target.value)} placeholder={copy.placeholder} className="min-w-0 flex-1 bg-transparent px-3 py-2 text-sm outline-none placeholder:text-muted" />
-            <button type="submit" className="button-primary shrink-0 !min-h-10 !px-4" aria-label={copy.submit}>↗</button>
+            <button type="submit" className="button-primary shrink-0 !min-h-10 !px-4" aria-label={copy.submit}><Icon name="search" /></button>
           </>
         ) : (
           <>
@@ -98,13 +99,13 @@ export function SmartSearch({
               }
             }} placeholder={copy.placeholder} className="prompt-input" />
             <span className="prompt-hint"><svg aria-hidden="true" viewBox="0 0 16 16" fill="none" stroke="currentColor"><path d="M12 3v6H3m0 0 3-3M3 9l3 3" /></svg>{copy.hint}</span>
-            <button type="submit" className="prompt-submit"><span>{copy.submit}</span><span aria-hidden="true">↗</span></button>
+            <button type="submit" className="prompt-submit"><span>{copy.submit}</span><Icon name="search" /></button>
           </>
         )}
       </form>
-      {!compact && <div className="hero-examples">{hero.examples.map(example => <button type="button" key={example} onClick={() => { changeQuery(example); heroInput.current?.focus(); }} className="prompt-choice">{example}<span aria-hidden="true">↗</span></button>)}</div>}
+      {!compact && <div className="hero-examples">{hero.examples.map(example => <button type="button" key={example} onClick={() => { changeQuery(example); heroInput.current?.focus(); }} className="prompt-choice">{example}</button>)}</div>}
       {message && <p role="status" className="mt-4 text-sm text-muted">{message}</p>}
-      {choices && <div className="mt-3 flex flex-wrap gap-2">{choices.map((choice) => <Link key={choice.href} href={choice.href} onClick={onNavigate} className={compact ? "rounded-full border border-line bg-white px-3 py-2 text-sm font-semibold hover:border-foreground" : "prompt-choice"}>{searchLabels[choice.href as keyof typeof searchLabels] ?? choice.label} ↗</Link>)}</div>}
+      {choices && <div className="mt-3 flex flex-wrap gap-2">{choices.map((choice) => <Link key={choice.href} href={choice.href} onClick={onNavigate} className={compact ? "rounded-full border border-line bg-white px-3 py-2 text-sm font-semibold hover:border-foreground" : "prompt-choice"}>{searchLabels[choice.href as keyof typeof searchLabels] ?? choice.label}<Icon name="arrow-right" /></Link>)}</div>}
       {compact && !choices && <div className="mt-3 flex flex-wrap gap-2">{fallbackDestinations.map((destination) => <Link key={destination.href} href={destination.href} onClick={onNavigate} className="text-xs font-semibold underline underline-offset-4">{destination.label}</Link>)}</div>}
     </div>
   );

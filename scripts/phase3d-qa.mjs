@@ -40,7 +40,7 @@ try {
       };
     });
     await page.goto("http://127.0.0.1:3100", { waitUntil: "networkidle" });
-    assert.equal(await page.locator("h1").innerText(), "Apa yang ingin kamu wujudkan?");
+    assert.equal(await page.locator("h1").getAttribute("aria-label"), "Apa yang ingin kamu wujudkan?");
     assert.equal(await page.locator(".hero-eyebrow, .brand-dot").count(), 0);
     assert.ok((await page.title()).startsWith("TELLU"));
     if (!touch) {

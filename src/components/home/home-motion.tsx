@@ -16,8 +16,7 @@ export function HomeMotion({ children }: { children: React.ReactNode }) {
       if (!context.conditions?.motion) return;
       const desktop = context.conditions.desktop;
       const entrance = gsap.timeline({ defaults: { ease: "power3.out", duration: .65 } });
-      entrance.from(".hero-title span", { yPercent: 105, duration: .85 }, 0)
-        .from(".hero-copy", { opacity: 0, y: 14 }, .15)
+      entrance.from(".hero-copy", { opacity: 0, y: 14 }, .15)
         // The input stays visible, focusable and usable throughout its entrance.
         .from(".hero-search-zone", { y: 18, duration: .7 }, .2)
         .from(".hero-ornament", { opacity: 0, scale: .8, stagger: .07 }, .3);
@@ -33,14 +32,6 @@ export function HomeMotion({ children }: { children: React.ReactNode }) {
 
       scope.current?.querySelectorAll<HTMLElement>("[data-reveal], [data-story-copy]").forEach(section => {
         gsap.from(section, { y: desktop ? 30 : 16, duration: .7, ease: "power2.out", scrollTrigger: { trigger: section, start: "top 94%", once: true } });
-      });
-
-      gsap.from(".bridge-piece", {
-        x: index => (index - 1) * (desktop ? 120 : 45),
-        y: index => index === 1 ? -45 : 25,
-        rotation: index => (index - 1) * 16,
-        ease: "none",
-        scrollTrigger: { trigger: "#tentang", start: "top 95%", end: "top 40%", scrub: 1 },
       });
 
       if (desktop) {

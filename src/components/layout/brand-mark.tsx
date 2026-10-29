@@ -1,6 +1,7 @@
-// Crop the authentic upper module; the mask preserves its original rounded silhouette.
-export function BrandModule({ className = "" }: { className?: string }) {
-  return <span aria-hidden="true" className={`brand-module ${className}`} />;
+import Image from "next/image";
+
+export function BrandSymbol({ className = "" }: { className?: string }) {
+  return <Image src="/brand/tellu-logo.png" alt="" width={629} height={589} sizes="24px" className={`brand-symbol ${className}`} />;
 }
 
 export function BrandMark({ className = "" }: { className?: string }) {

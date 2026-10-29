@@ -1,6 +1,7 @@
 import type { Dictionary } from "../locales";
 export const hero = {
   "title": "What would you like to create?",
+  "typingTitles": ["Need a website for your business?", "Want your brand to stand out?", "Ready for more engaging content?", "Need systems for your business?"],
   "description": "From business websites and creative content to digital solutions, find what you need and take the next step.",
   "stage": "Explore what we do",
   "scroll": "Get to know TELLU",
@@ -64,6 +65,8 @@ export const portfolio = {
   "screenshot": "Website screenshot",
   "image": "Project screenshot",
   "explore": "Explore live website",
+  "pending": "Preview is awaiting permission from the website owner.",
+  "openProject": "Open {name} website",
   "unavailable": "Live preview is unavailable. You can still explore the original website.",
   "requested": "Preview requested from the original website. If blank or blocked, return to the screenshot or open the website in a new tab.",
   "idle": "The website loads when you choose Explore live website.",

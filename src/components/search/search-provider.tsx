@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { SmartSearch } from "./smart-search";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { BrandMark } from "@/components/layout/brand-mark";
+import { BrandSymbol } from "@/components/layout/brand-mark";
 
 gsap.registerPlugin(useGSAP);
 
@@ -109,7 +109,7 @@ function FloatingSearch({ pathname }: { pathname: string }) {
             </div>
           )}
           <button ref={trigger} type="button" aria-expanded={expanded} aria-controls="floating-search-panel" aria-label={expanded ? copy.close : copy.open} onClick={() => expanded ? close() : setOpen(true)} className="floating-search-trigger">
-            <BrandMark /><span>{copy.dock}</span>
+            <BrandSymbol /><span>{copy.dock}</span>
           </button>
         </div>
   );
