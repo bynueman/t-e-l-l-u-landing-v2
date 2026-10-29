@@ -113,7 +113,7 @@ try {
     assert.equal(await page.locator(".tech-browser").getAttribute("data-mobile"), "false");
     await page.getByRole("button", { name: /Intrax/ }).click();
     assert.equal(await page.locator("iframe").count(), 0);
-    await page.locator(".tech-cover").getByText("Pratinjau langsung belum tersedia.", { exact: false }).waitFor();
+    await page.locator(".tech-preview-actions").getByText("Pratinjau langsung belum tersedia.", { exact: false }).waitFor();
     await page.emulateMedia({ reducedMotion: "reduce" });
     await page.goto("http://127.0.0.1:3100", { waitUntil: "networkidle" });
     assert.equal(await page.locator(".hero-title").evaluate(el => getComputedStyle(el).opacity), "1");

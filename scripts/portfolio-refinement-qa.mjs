@@ -19,7 +19,7 @@ try {
     await page.goto("http://127.0.0.1:3100", { waitUntil: "networkidle" });
     await page.screenshot({ path: `${output}/${name}-hero.png` });
     assert.equal(await page.locator("iframe").count(), 0);
-    assert.equal(await page.locator(".hero-ornament").count(), 1);
+    assert.equal(await page.locator(".hero-ornament").count(), 3);
     assert.equal(await page.locator(".bridge-piece.brand-module").count(), 0);
     assert.equal(await page.locator(".story-piece image").count(), 3);
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
@@ -55,7 +55,7 @@ try {
     assert.equal(await page.locator("iframe").count(), 0);
     await page.getByRole("button", { name: /04.*Intrax/ }).click();
     assert.equal(await page.getByRole("button", { name: "Jelajahi website", exact: true }).count(), 0);
-    assert.match(await page.locator(".tech-cover").innerText(), /belum tersedia/);
+    assert.match(await page.locator(".tech-preview-actions").innerText(), /belum tersedia/);
     assert.match(await page.locator('[role="status"]').first().innerText(), /menunggu izin/);
     await page.getByRole("button", { name: /01.*YUK Education/ }).click();
     await page.locator(".tech-browser").screenshot({ path: `${output}/${name}-safari.png` });

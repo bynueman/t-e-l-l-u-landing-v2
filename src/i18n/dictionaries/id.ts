@@ -10,8 +10,8 @@ export const hero = {
     "Kelola media sosial",
     "Cari domain"
   ],
-  "pause": "Jeda animasi",
-  "play": "Lanjutkan animasi",
+  "pause": "Jeda gerak dekoratif dan animasi judul",
+  "play": "Lanjutkan gerak dekoratif dan animasi judul",
   "nav": "Jelajahi layanan",
   "signature": "Ruang untuk ide yang jadi nyata."
 } as const;

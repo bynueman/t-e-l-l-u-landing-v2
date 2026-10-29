@@ -11,8 +11,8 @@ export const hero = {
     "Manage social media",
     "Find a domain"
   ],
-  "pause": "Pause animation",
-  "play": "Resume animation",
+  "pause": "Pause decorative motion and headline animation",
+  "play": "Resume decorative motion and headline animation",
   "nav": "Explore services",
   "signature": "A little space for your next big idea."
 } satisfies Dictionary["hero"];

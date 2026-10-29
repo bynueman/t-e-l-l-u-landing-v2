@@ -17,4 +17,5 @@ test("typing deletes and types one character at a time, then loops to the origin
   assert.deepEqual(completed, ["Website?", "Konten?", "Apa?"]);
   assert.equal(typingTiming.hold, 3000);
   assert.ok(typingTiming.type > typingTiming.delete);
+  assert.ok(typingTiming.gap <= 100, "avoid a long pause between deletion and incoming typing");
 });

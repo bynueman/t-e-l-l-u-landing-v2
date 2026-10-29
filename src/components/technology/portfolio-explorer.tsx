@@ -5,6 +5,9 @@ import { portfolio as copy } from "@/i18n/dictionaries/id";
 import { Suspense, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { technologyProjects } from "@/lib/technology-portfolio";
+import { useRef } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import { Icon } from "@/components/ui/icon";
 
 export function PortfolioExplorer() {
@@ -17,10 +20,18 @@ function ProjectFromQuery() {
 }
 
 function ProjectPreview({ initialSelected = technologyProjects[0].id }: { initialSelected?: string }) {
+  const frame = useRef<HTMLDivElement>(null);
   const [selected, setSelected] = useState(() => technologyProjects.find(item => item.id === initialSelected)?.id ?? technologyProjects[0].id);
   const [live, setLive] = useState(false);
   const [mobile, setMobile] = useState(false);
   const [revision, setRevision] = useState(0);
+  useGSAP(() => {
+    const media = gsap.matchMedia();
+    media.add("(prefers-reduced-motion: no-preference)", () => {
+      gsap.fromTo(frame.current, { opacity: .7, y: 8 }, { opacity: 1, y: 0, duration: .4, ease: "power2.out" });
+    });
+    return () => media.revert();
+  }, { dependencies: [selected, mobile, live], revertOnUpdate: true });
   // Resolve IDs against the fixed registry; arbitrary URLs never enter the iframe.
   const project = technologyProjects.find((item) => item.id === selected) ?? technologyProjects[0];
   const pending = project.previewStatus === "pending-server-permission";
@@ -32,10 +43,11 @@ function ProjectPreview({ initialSelected = technologyProjects[0].id }: { initia
     <div className="min-w-0">
       <div className="tech-project-info" aria-live="polite"><p className="eyebrow text-muted">{project.category}</p><h3>{project.name}</h3><p>{project.description}</p></div>
       <div className="tech-preview-tools"><div role="group" aria-label={copy.width}><button type="button" aria-pressed={!mobile} onClick={() => setMobile(false)}>{copy.desktop}</button><button type="button" aria-pressed={mobile} onClick={() => setMobile(true)}>{copy.mobile}</button></div><a href={project.url} target="_blank" rel="noopener noreferrer" className="text-link">{copy.original}<Icon name="external" /></a></div>
-      <div className="tech-browser" data-mobile={mobile}>
+      <div ref={frame} className="tech-browser" data-mobile={mobile}>
         <div className="tech-address"><span className="browser-lights" aria-hidden="true"><i /><i /><i /></span><span className="browser-domain">{new URL(project.url).hostname}</span>{live && <button type="button" onClick={() => setRevision((value) => value + 1)}>{copy.reload}</button>}</div>
-        {live && canEmbed ? <iframe key={`${project.id}-${revision}`} src={project.previewUrl ?? project.url} title={`${copy.preview}: ${project.name}`} loading="lazy" referrerPolicy="no-referrer" sandbox={project.id === "intrax" ? "allow-scripts allow-same-origin" : "allow-scripts allow-same-origin allow-forms allow-popups"} /> : <div className="tech-cover"><Image src={project.image} alt={`${copy.screenshot}: ${project.name}`} width={1600} height={1000} sizes="(max-width: 768px) 90vw, 65vw" /><div><p className="eyebrow">{copy.image}</p>{canEmbed ? <button type="button" className="button-primary" onClick={() => setLive(true)}>{copy.explore}</button> : <><p>{copy.unavailable}</p><a className="button-primary" href={project.url} target="_blank" rel="noopener noreferrer">{copy.openProject.replace("{name}", project.name)}<Icon name="external" /></a></>}</div></div>}
+        {live && canEmbed ? <iframe key={`${project.id}-${revision}`} src={project.previewUrl ?? project.url} title={`${copy.preview}: ${project.name}`} loading="lazy" referrerPolicy="no-referrer" sandbox={project.id === "intrax" ? "allow-scripts allow-same-origin" : "allow-scripts allow-same-origin allow-forms allow-popups"} /> : <div className="tech-cover"><Image src={project.image} alt={`${copy.screenshot}: ${project.name}`} width={1600} height={1000} sizes="(max-width: 768px) 90vw, 65vw" /></div>}
       </div>
+      {!live && <div className="tech-preview-actions"><div><p className="eyebrow">{copy.image}</p></div>{canEmbed ? <button type="button" className="button-primary" onClick={() => setLive(true)}>{copy.explore}</button> : <><p>{copy.unavailable}</p><a className="button-primary" href={project.url} target="_blank" rel="noopener noreferrer">{copy.openProject.replace("{name}", project.name)}<Icon name="external" /></a></>}</div>}
       <p className="tech-preview-note" role="status">{pending ? copy.pending : live ? copy.requested : canEmbed ? copy.idle : `${copy.image}.`} {copy.widthNote}</p>
       <p className="tech-preview-note">{copy.recovery}<a href={project.url} target="_blank" rel="noopener noreferrer" className="text-link">{copy.original}</a>{live && <button type="button" onClick={() => setLive(false)} className="text-link ml-4">{copy.back}</button>}</p>
     </div>

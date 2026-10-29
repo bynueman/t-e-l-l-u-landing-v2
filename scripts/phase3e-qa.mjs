@@ -22,7 +22,7 @@ try {
     assert.equal(await page.locator("h1").getAttribute("aria-label"), messages[0]);
     assert.equal(await page.locator(".typing-visual").getAttribute("aria-hidden"), "true");
     assert.equal(await page.locator(".hero-heading [aria-live]").count(), 0);
-    await page.getByRole("button", { name: "Jeda animasi", exact: true }).click();
+    await page.getByRole("button", { name: "Jeda gerak dekoratif dan animasi judul", exact: true }).click();
     await page.waitForTimeout(900);
     const baseline = await page.locator("#hero-search").evaluate(el => el.getBoundingClientRect().top);
     const frozen = await page.locator(".typing-value").innerText();
@@ -35,9 +35,9 @@ try {
     assert.ok(wrapping.every(item => item.rows <= 2), `${name}: ${JSON.stringify(wrapping)}`);
     assert.ok(await page.locator("#hero-search").evaluate(el => el.getBoundingClientRect().bottom < innerHeight));
     assert.equal(await page.locator(".bridge-symbol, .bridge-piece").count(), 0);
-    assert.equal(await page.locator(".hero-ornament").count(), 1);
+    assert.equal(await page.locator(".hero-ornament").count(), 3);
     await page.screenshot({ path: `${output}/${name}-hero.png` });
-    await page.getByRole("button", { name: "Lanjutkan animasi", exact: true }).click();
+    await page.getByRole("button", { name: "Lanjutkan gerak dekoratif dan animasi judul", exact: true }).click();
     await page.waitForFunction(() => document.querySelector(".hero-heading").dataset.phase === "delete" && document.querySelector(".typing-value").textContent.length < 27 && document.querySelector(".typing-value").textContent.length > 0);
     assert.ok(Math.abs(await page.locator("#hero-search").evaluate(el => el.getBoundingClientRect().top) - baseline) < .5);
     for (const message of name === "desktop" ? [...messages.slice(1), messages[0]] : [messages[1]]) {
@@ -99,7 +99,7 @@ try {
     await page.locator(".site-header").getByRole("link", { name: "TELLU, halaman utama" }).click();
     await page.locator(".typing-value").waitFor();
     assert.equal(await page.locator(".typing-value").innerText(), messages[0]);
-    assert.equal(await page.locator(".typing-toggle").isVisible(), false);
+    assert.equal(await page.locator(".motion-toggle").isVisible(), false);
     await page.waitForTimeout(300);
     assert.equal(await page.locator(".typing-value").innerText(), messages[0]);
     assert.equal(await page.locator(".story-symbol .story-piece image").count(), 3);
@@ -116,7 +116,7 @@ try {
   await noScript.goto("http://127.0.0.1:3100");
   assert.equal(await noScript.locator(".typing-value").innerText(), messages[0]);
   assert.equal(await noScript.locator("#hero-search").isVisible(), true);
-  assert.equal(await noScript.locator(".typing-toggle").isVisible(), false);
+  assert.equal(await noScript.locator(".motion-toggle").isVisible(), false);
   await noScript.close();
   assert.deepEqual(results.errors, []);
   results.status = "PASS";

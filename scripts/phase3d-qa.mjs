@@ -165,7 +165,7 @@ try {
       assert.equal(await page.locator("iframe").count(), 1);
       await page.getByRole("button", { name: /04.*Intrax/ }).click();
       assert.equal(await page.locator("iframe").count(), 0);
-      assert.match(await page.locator(".tech-cover").innerText(), /belum tersedia/);
+      assert.match(await page.locator(".tech-preview-actions").innerText(), /belum tersedia/);
       results.portfolioRegression = "PASS";
     }
     await page.getByRole("button", { name: "Buka pencarian TELLU" }).click();
