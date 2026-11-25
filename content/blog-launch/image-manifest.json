@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-11-25T10:47:40Z",
+  "optimizationTool": "sharp (WebP quality 82, effort 6, 1600x900 16:9)",
+  "images": [
+    {
+      "articleSlug": "biaya-pembuatan-website-profesional",
+      "category": "Technology",
+      "sourceMethod": "Original AI editorial image generation (TELLU art direction, warm off-white desk + orange accent)",
+      "sourceUrl": null,
+      "photographer": "Original generated editorial asset (Antigravity image-generator)",
+      "license": "Original project-owned editorial asset authorized for TELLU publication and redistribution",
+      "finalFilename": "biaya-pembuatan-website-profesional.webp",
+      "dimensions": "1600x900",
+      "fileSizeBytes": 30688,
+      "altText": "Laptop menampilkan kerangka tata letak website di meja studio netral bersama buku catatan bergaris, kalkulator, dan pena untuk perencanaan anggaran pembuatan website."
+    },
+    {
+      "articleSlug": "cara-memilih-jasa-pembuatan-website",
+      "category": "Technology",
+      "sourceMethod": "Original AI editorial image generation (TELLU art direction, responsive laptop + mobile + orange accent)",
+      "sourceUrl": null,
+      "photographer": "Original generated editorial asset (Antigravity image-generator)",
+      "license": "Original project-owned editorial asset authorized for TELLU publication and redistribution",
+      "finalFilename": "memilih-jasa-pembuatan-website.webp",
+      "dimensions": "1600x900",
+      "fileSizeBytes": 26154,
+      "altText": "Meja kerja rapi menampilkan laptop dan ponsel berdiri dengan tata letak website responsif yang konsisten beserta buku catatan dan pena."
+    },
+    {
+      "articleSlug": "website-baru-atau-revamp",
+      "category": "Technology",
+      "sourceMethod": "Original AI editorial image generation (TELLU art direction, side-by-side layout comparison + orange accent)",
+      "sourceUrl": null,
+      "photographer": "Original generated editorial asset (Antigravity image-generator)",
+      "license": "Original project-owned editorial asset authorized for TELLU publication and redistribution",
+      "finalFilename": "website-baru-atau-revamp.webp",
+      "dimensions": "1600x900",
+      "fileSizeBytes": 16064,
+      "altText": "Perbandingan editorial dua jendela peramban di atas meja netral: tata letak lama yang padat di sisi kiri dan tata letak modern yang lega dengan aksen oranye di sisi kanan."
+    },
+    {
+      "articleSlug": "cara-membangun-identitas-brand",
+      "category": "Creative",
+      "sourceMethod": "Original AI editorial image generation (TELLU art direction, brand guidelines flat-lay + lime-green accent)",
+      "sourceUrl": null,
+      "photographer": "Original generated editorial asset (Antigravity image-generator)",
+      "license": "Original project-owned editorial asset authorized for TELLU publication and redistribution",
+      "finalFilename": "identitas-brand-konsisten.webp",
+      "dimensions": "1600x900",
+      "fileSizeBytes": 23244,
+      "altText": "Susunan datar material identitas brand di permukaan studio netral: buku panduan brand, kartu contoh warna dengan aksen hijau limau, lembar kisi tipografi, kartu alat tulis, dan penggaris logam."
+    },
+    {
+      "articleSlug": "tanda-bisnis-membutuhkan-sistem-digital",
+      "category": "Business",
+      "sourceMethod": "Original AI editorial image generation (TELLU art direction, ledger sheets to dashboard + blue-violet accent)",
+      "sourceUrl": null,
+      "photographer": "Original generated editorial asset (Antigravity image-generator)",
+      "license": "Original project-owned editorial asset authorized for TELLU publication and redistribution",
+      "finalFilename": "sistem-digital-bisnis.webp",
+      "dimensions": "1600x900",
+      "fileSizeBytes": 51746,
+      "altText": "Komposisi studio meja kerja menampilkan lembaran catatan kertas berpetak dan map beraksen biru-ungu beralih ke tablet dan laptop dengan dasbor sistem digital terstruktur."
+    }
+  ]
+}

@@ -38,6 +38,7 @@ export async function checkServerAdminNetworkAccess(request?: Request): Promise<
 
 export function revalidateBlogPaths(slug?: string): void {
   try {
+    revalidatePath("/");
     revalidatePath("/blog");
     if (slug) {
       revalidatePath(`/blog/${slug}`);

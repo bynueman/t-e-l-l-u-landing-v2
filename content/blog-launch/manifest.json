@@ -1,0 +1,33 @@
+{
+  "packageId": "tellu-blog-launch-01",
+  "version": "1.0.0",
+  "description": "Paket konten editorial perdana TELLU (5 artikel perdana, sampul WebP teroptimasi, metadata SEO, dan manifest asal-usul gambar).",
+  "createdAt": "2026-11-25T10:50:00Z",
+  "articles": [
+    {
+      "order": 1,
+      "slug": "biaya-pembuatan-website-profesional",
+      "file": "articles/01-biaya-pembuatan-website-profesional.json"
+    },
+    {
+      "order": 2,
+      "slug": "cara-memilih-jasa-pembuatan-website",
+      "file": "articles/02-cara-memilih-jasa-pembuatan-website.json"
+    },
+    {
+      "order": 3,
+      "slug": "website-baru-atau-revamp",
+      "file": "articles/03-website-baru-atau-revamp.json"
+    },
+    {
+      "order": 4,
+      "slug": "cara-membangun-identitas-brand",
+      "file": "articles/04-cara-membangun-identitas-brand.json"
+    },
+    {
+      "order": 5,
+      "slug": "tanda-bisnis-membutuhkan-sistem-digital",
+      "file": "articles/05-tanda-bisnis-membutuhkan-sistem-digital.json"
+    }
+  ]
+}

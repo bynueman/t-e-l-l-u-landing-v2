@@ -1,0 +1,645 @@
+{
+  "order": 1,
+  "title": "Berapa Biaya Pembuatan Website Profesional? Panduan untuk Pemilik Bisnis",
+  "slug": "biaya-pembuatan-website-profesional",
+  "excerpt": "Biaya pembuatan website bergantung pada jenis situs, jumlah halaman, desain, fitur, domain, hosting, dan perawatannya. Pelajari komponen biayanya untuk menyiapkan anggaran bisnis.",
+  "categorySlug": "technology",
+  "tags": [
+    "Biaya Website",
+    "Pembuatan Website",
+    "Anggaran Bisnis",
+    "Domain & Hosting",
+    "Perawatan Website"
+  ],
+  "seoTitle": "Biaya Pembuatan Website Profesional | Panduan TELLU",
+  "seoDescription": "Ketahui faktor yang menentukan biaya pembuatan website, mulai dari desain, fitur, domain, hosting, hingga maintenance. Siapkan anggaran website bisnismu.",
+  "canonicalUrl": "",
+  "featured": true,
+  "primaryKeyword": "biaya pembuatan website",
+  "secondaryKeywords": [
+    "harga pembuatan website",
+    "harga jasa website",
+    "biaya website profesional",
+    "paket pembuatan website",
+    "estimasi biaya website"
+  ],
+  "searchIntent": "Commercial investigation dan riset komponen biaya pembuatan website",
+  "cover": {
+    "filename": "biaya-pembuatan-website-profesional.webp",
+    "altText": "Laptop menampilkan kerangka tata letak website di meja studio netral bersama buku catatan bergaris, kalkulator, dan pena untuk perencanaan anggaran pembuatan website."
+  },
+  "structuredContent": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Biaya pembuatan website tidak memiliki satu angka tetap karena ruang lingkup setiap bisnis berbeda. Sebuah landing page satu halaman untuk memperkenalkan satu penawaran utama tentu membutuhkan waktu perancangan dan infrastruktur yang jauh lebih ringkas dibandingkan website perusahaan multi-halaman dengan panel admin CMS, katalog produk, atau sistem pemesanan online."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Saat membandingkan harga jasa website, pemilik usaha sering menemukan selisih penawaran yang cukup jauh antar penyedia. Selisih tersebut umumnya bukan semata soal mahal atau murah, melainkan perbedaan komponen yang masuk di dalam lingkup kerja: mulai dari cara desain dikerjakan, kesiapan pengelolaan konten, kepemilikan domain dan hosting, hingga ada tidaknya dukungan teknis setelah website tayang."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          {
+            "type": "text",
+            "text": "Mengapa Biaya Pembuatan Website Bisa Berbeda Jauh?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Secara teknis, dua website yang terlihat mirip di halaman depan bisa memiliki kerangka kerja yang sangat berbeda di baliknya. Website yang dibangun hanya dari template siap pakai dengan teks yang diganti seperlunya membutuhkan jam kerja yang singkat. Sebaliknya, website profesional yang disusun mengikuti alur informasi bisnis, diuji di berbagai ukuran layar ponsel, serta dilengkapi struktur SEO dasar dan panel pengelolaan konten memerlukan tahapan riset, desain, pengembangan, dan pengujian yang lebih menyeluruh."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Karena itu, langkah paling aman sebelum meminta paket pembuatan website adalah memahami komponen apa saja yang membentuk total biaya tersebut."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          {
+            "type": "text",
+            "text": "Faktor Utama yang Memengaruhi Biaya Pembuatan Website"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 3 },
+        "content": [
+          { "type": "text", "text": "1. Jenis Website dan Ruang Lingkup Proyek" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Kebutuhan bisnis menentukan arsitektur website sejak awal. Landing page promosi umumnya berfokus pada satu alur pesan dan tombol kontak langsung seperti WhatsApp atau formulir. Company profile membutuhkan pembagian halaman yang lebih terstruktur agar profil layanan, portofolio, dan informasi kontak mudah ditelusuri. Sementara itu, website katalog, sistem booking jadwal, atau toko online memerlukan logika basis data, alur pemesanan, serta integrasi pembayaran yang jauh lebih kompleks."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 3 },
+        "content": [
+          { "type": "text", "text": "2. Jumlah Halaman dan Kedalaman Fitur" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Setiap halaman unik membutuhkan penyusunan tata letak, hierarki informasi, dan penyesuaian tampilan mobile. Website dengan 5 hingga 7 halaman (misalnya Beranda, Layanan, Portfolio, Tentang Kami, dan Kontak) membutuhkan koordinasi struktur navigasi yang lebih matang daripada situs satu halaman. Penambahan fitur seperti peta lokasi interaktif, integrasi API pihak ketiga, atau gerbang pembayaran juga menambah beban pengembangan dan pengujian."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 3 },
+        "content": [
+          { "type": "text", "text": "3. Desain Custom versus Implementasi Sederhana" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Implementasi sederhana menggunakan pola tata letak standar cocok untuk usaha yang ingin segera hadir online dengan materi yang sudah siap. Desain custom disusun agar tampilan visual, tipografi, warna, dan ritme baca selaras dengan identitas brand serta kebiasaan calon pelanggan. Pekerjaan desain custom juga mencakup penyesuaian tata letak untuk layar ponsel, tablet, dan desktop, ditambah struktur on-page SEO yang rapi sesuai panduan dasar "
+          },
+          {
+            "type": "text",
+            "text": "Google Search Central SEO Starter Guide",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+                }
+              }
+            ]
+          },
+          { "type": "text", "text": "." }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 3 },
+        "content": [
+          { "type": "text", "text": "4. Kebutuhan Pengelolaan Konten (CMS)" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Jika isi website jarang berubah—misalnya hanya profil singkat dan nomor kontak—halaman statis sudah memadai dan lebih hemat biaya. Namun, jika timmu berencana rutin menerbitkan artikel blog, memperbarui daftar proyek, atau mengganti foto katalog secara mandiri, penyediaan Content Management System (CMS) beserta panduan pemakaiannya perlu dimasukkan ke dalam estimasi biaya website."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 3 },
+        "content": [
+          { "type": "text", "text": "5. Domain, Hosting, dan Sertifikat Keamanan SSL" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Agar website dapat diakses publik melalui alamat resmi seperti .com atau .id, bisnis membutuhkan nama domain dan ruang server (hosting). Untuk domain Indonesia seperti .id atau .co.id, pengelolaannya berada di bawah registri resmi "
+          },
+          {
+            "type": "text",
+            "text": "PANDI",
+            "marks": [{ "type": "link", "attrs": { "href": "https://pandi.id/" } }]
+          },
+          {
+            "type": "text",
+            "text": " melalui registrar terakreditasi, dengan persyaratan administratif tertentu untuk ekstensi tertentu. Selain itu, website modern wajib menggunakan koneksi terenkripsi HTTPS melalui sertifikat SSL/TLS—banyak server modern memanfaatkan otoritas sertifikat terbuka seperti "
+          },
+          {
+            "type": "text",
+            "text": "Let's Encrypt",
+            "marks": [{ "type": "link", "attrs": { "href": "https://letsencrypt.org/about/" } }]
+          },
+          {
+            "type": "text",
+            "text": " atau sertifikat bawaan layanan hosting."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 3 },
+        "content": [
+          { "type": "text", "text": "6. Perawatan (Maintenance) dan Biaya Berjalan" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Website bukan produk sekali jadi yang dibiarkan tanpa perhatian. Pembaruan konten berkala, pencadangan data (backup), pengecekan tautan, serta pemantauan performa dan keamanan sistem termasuk dalam perawatan website. Layanan ini umumnya ditagihkan secara berkala (bulanan) sesuai kesepakatan kuota dan tingkat dukungan teknis yang dibutuhkan."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Memisahkan Biaya Sekali Bayar dan Biaya Rutin" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Kesalahan anggaran yang paling sering terjadi adalah mencampur biaya pembuatan awal dengan biaya operasional berkala. Memisahkan kedua kelompok biaya ini membantu arus kas bisnis tetap terukur sejak tahun pertama hingga tahun berikutnya."
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Biaya sekali bayar (initial project fee): ", "marks": [{ "type": "bold" }] },
+                  {
+                    "type": "text",
+                    "text": "mencakup riset kebutuhan, desain antarmuka, pengembangan halaman, integrasi formulir atau fitur khusus, penataan SEO dasar, pengujian, serta peluncuran awal."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Biaya rutin tahunan: ", "marks": [{ "type": "bold" }] },
+                  {
+                    "type": "text",
+                    "text": "mencakup perpanjangan nama domain dan sewa hosting atau server setelah masa berlangganan tahun pertama berakhir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Biaya rutin bulanan (opsional sesuai kebutuhan): ", "marks": [{ "type": "bold" }] },
+                  {
+                    "type": "text",
+                    "text": "mencakup layanan perawatan website seperti pembaruan konten rutin, backup terjadwal, pemantauan teknis, dan bantuan perbaikan ringan."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Perbandingan Cakupan Jenis Website untuk Menentukan Anggaran" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Daripada menebak angka rata-rata pasar yang sering tidak sebanding antar penyedia, gunakan pemetaan cakupan berikut untuk menentukan kategori kebutuhan bisnismu terlebih dahulu:"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "content": [
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableHeader", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Jenis Cakupan" }] }] },
+              { "type": "tableHeader", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Cocok untuk" }] }] },
+              { "type": "tableHeader", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Komponen Utama" }] }] },
+              { "type": "tableHeader", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Pola Biaya" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Landing Page Ringkas (1 Halaman)", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "UMKM, personal brand, atau kampanye satu produk/jasa" }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Desain responsif 1 halaman, integrasi WhatsApp/formulir, SEO dasar, domain & hosting" }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Sekali bayar rendah–menengah + perpanjangan domain/hosting tahunan" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Company Profile Multi-Halaman + CMS", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Bisnis berkembang yang butuh profil layanan lengkap dan update mandiri" }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "5–7 halaman terstruktur, panel CMS, peta lokasi, SEO lanjutan & sitemap XML" }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Sekali bayar menengah + domain/hosting tahunan (+ maintenance bila perlu)" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Website Katalog / Sistem Kustom", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Perusahaan dengan e-commerce, booking, atau integrasi sistem internal" }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Arsitektur dinamis, basis data khusus, payment gateway/API, dokumentasi serah terima" }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Sekali bayar menyesuaikan milestone proposal + hosting & maintenance berkala" }] }] }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Jika kamu sudah memiliki website namun tampilannya mulai tertinggal atau lambat di ponsel, kebutuhannya mungkin bukan membuat dari nol melainkan pembaruan terarah. Kamu dapat membaca perbedaannya pada panduan "
+          },
+          {
+            "type": "text",
+            "text": "Website Baru atau Revamp? Kenali Kebutuhan Website Bisnismu",
+            "marks": [{ "type": "link", "attrs": { "href": "/blog/website-baru-atau-revamp" } }]
+          },
+          { "type": "text", "text": "." }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Checklist Menyiapkan Anggaran Website Bisnis" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sebelum menghubungi penyedia jasa website, siapkan enam poin berikut agar diskusi anggaran berjalan cepat dan tepat sasaran:"
+          }
+        ]
+      },
+      {
+        "type": "orderedList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Tetapkan satu tujuan utama website: ", "marks": [{ "type": "bold" }] },
+                  { "type": "text", "text": "apakah untuk mendorong chat WhatsApp, mengisi formulir konsultasi, menampilkan katalog, atau membangun kredibilitas saat calon mitra mengecek profil perusahaan." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Daftar halaman wajib sejak hari pertama: ", "marks": [{ "type": "bold" }] },
+                  { "type": "text", "text": "pisahkan halaman yang harus langsung tayang dari fitur tambahan yang bisa menyusul di tahap kedua." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Cek kesiapan materi internal: ", "marks": [{ "type": "bold" }] },
+                  { "type": "text", "text": "apakah logo, foto produk/tim, dan teks profil sudah tersedia atau perlu disiapkan terpisah." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Tentukan siapa yang mengelola konten: ", "marks": [{ "type": "bold" }] },
+                  { "type": "text", "text": "apakah tim internal akan memperbarui isi website lewat CMS, atau lebih praktis memakai paket perawatan bulanan." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Periksa status domain dan hosting: ", "marks": [{ "type": "bold" }] },
+                  { "type": "text", "text": "catat apakah perusahaan sudah punya domain sendiri atau perlu pendaftaran baru beserta SSL." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Sisihkan anggaran pembaruan tahunan: ", "marks": [{ "type": "bold" }] },
+                  { "type": "text", "text": "pastikan biaya perpanjangan domain dan hosting tahun berikutnya dicatat dalam anggaran operasional." }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Cara Membandingkan Penawaran Harga Jasa Website Secara Adil" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Ketika menerima dua atau tiga proposal harga pembuatan website, jangan hanya melihat baris total di bagian paling bawah. Periksa kesetaraan lingkup kerja di balik angka tersebut:"
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Apakah domain dan hosting tahun pertama sudah termasuk, dan atas nama siapa domain didaftarkan?" }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Apakah jumlah revisi dan batas waktu pengerjaan tertulis dengan jelas?" }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Apakah klien mendapatkan akses admin penuh serta panduan pemakaian saat serah terima?" }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Berapa biaya perpanjangan tahun kedua dan syarat dukungan teknis setelah website tayang?" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Untuk membantu menyaring mitra pengerjaan berdasarkan transparansi hal-hal di atas, kamu dapat mempelajari panduan lengkapnya di artikel "
+          },
+          {
+            "type": "text",
+            "text": "Cara Memilih Jasa Pembuatan Website Profesional untuk Bisnis",
+            "marks": [{ "type": "link", "attrs": { "href": "/blog/cara-memilih-jasa-pembuatan-website" } }]
+          },
+          { "type": "text", "text": "." }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Cara Menggunakan Estimator Biaya Website TELLU sebagai Simulasi Awal" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Di halaman "
+          },
+          {
+            "type": "text",
+            "text": "TELLU Technology",
+            "marks": [{ "type": "link", "attrs": { "href": "/technology#packages" } }]
+          },
+          {
+            "type": "text",
+            "text": ", kami menyediakan daftar paket acuan sekaligus kalkulator interaktif pada bagian "
+          },
+          {
+            "type": "text",
+            "text": "Estimasi Biaya Website",
+            "marks": [{ "type": "link", "attrs": { "href": "/technology#estimator" } }]
+          },
+          {
+            "type": "text",
+            "text": ". Angka referensi yang tampil pada paket maupun estimator merupakan simulasi indikatif awal—bukan penawaran kontrak final—sehingga kamu dapat melihat gambaran perbedaan struktur biaya sekali bayar dan biaya bulanan sebelum berkonsultasi."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Langkah penggunaannya sederhana: pilih jenis proyek (Website Baru atau Revamp Website Lama), pilih skala jumlah halaman atau cakupan pembaruan, lalu centang fitur tambahan yang memang dibutuhkan. Sistem akan memisahkan perkiraan biaya awal sekali bayar dari biaya perawatan bulanan secara otomatis, dan menghindari penghitungan ganda apabila fitur seperti CMS sudah termasuk di dalam tier halaman yang kamu pilih. Setelah selesai, kamu bisa menyalin ringkasan estimasi tersebut atau langsung mendiskusikannya dengan tim TELLU agar lingkup dan harga definitif dapat dikonfirmasi melalui proposal resmi."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Pertanyaan Umum Seputar Biaya Website" }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 3 },
+        "content": [
+          { "type": "text", "text": "Apakah website bisa dimulai dari skala ringkas terlebih dahulu?" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Bisa. Banyak bisnis memulai dengan landing page atau company profile inti agar segera memiliki kanal informasi resmi, lalu menambah halaman katalog, blog, atau integrasi lain secara bertahap seiring berkembangnya kebutuhan."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 3 },
+        "content": [
+          { "type": "text", "text": "Mengapa biaya domain dan hosting biasanya terpisah setelah tahun pertama?" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Domain dan hosting adalah layanan infrastruktur yang disewa secara tahunan dari registrar dan penyedia server. Memisahkan biaya perpanjangan tahunan membuat pemilik bisnis tahu persis berapa biaya menjaga situs tetap online tanpa tercampur biaya jasa pengembangan awal."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Kesimpulan dan Langkah Berikutnya" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Mengetahui komponen biaya pembuatan website membantumu menyusun anggaran secara realistis tanpa terjebak perbandingan harga yang tidak setara. Mulailah dari tujuan bisnis, pisahkan biaya pengembangan awal dari biaya rutin tahunan atau bulanan, lalu simulasikan kebutuhanmu sebelum meminta proposal resmi."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Hitung Estimasi Biaya Website",
+            "marks": [
+              { "type": "bold" },
+              { "type": "link", "attrs": { "href": "/technology#estimator" } }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " di halaman TELLU Technology untuk melihat simulasi awal sesuai cakupan proyek bisnismu."
+          }
+        ]
+      }
+    ]
+  }
+}

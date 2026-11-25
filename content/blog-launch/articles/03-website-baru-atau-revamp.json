@@ -1,0 +1,408 @@
+{
+  "order": 3,
+  "title": "Website Baru atau Revamp? Kenali Kebutuhan Website Bisnismu",
+  "slug": "website-baru-atau-revamp",
+  "excerpt": "Pahami perbedaan maintenance, redesign, revamp, dan rebuild total. Ketahui tanda website perlu diperbarui serta cara menjaga struktur URL dan SEO saat migrasi.",
+  "categorySlug": "technology",
+  "tags": [
+    "Revamp Website",
+    "Redesign Website",
+    "Perawatan Website",
+    "SEO Teknis",
+    "Migrasi URL"
+  ],
+  "seoTitle": "Website Baru atau Revamp? Panduan untuk Bisnis",
+  "seoDescription": "Kenali perbedaan website baru, revamp, redesign, dan maintenance. Tentukan pembaruan website yang sesuai dengan kebutuhan bisnismu.",
+  "canonicalUrl": "",
+  "featured": false,
+  "primaryKeyword": "jasa revamp website",
+  "secondaryKeywords": [
+    "redesign website",
+    "pembaruan website",
+    "website baru",
+    "revamp website bisnis",
+    "perawatan website"
+  ],
+  "searchIntent": "Problem awareness dan commercial investigation antara revamp website atau membuat baru",
+  "cover": {
+    "filename": "website-baru-atau-revamp.webp",
+    "altText": "Perbandingan editorial dua jendela peramban di atas meja netral: tata letak lama yang padat di sisi kiri dan tata letak modern yang lega dengan aksen oranye di sisi kanan."
+  },
+  "structuredContent": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Website bisnis sebaiknya menjalani revamp apabila struktur domain, isi konten inti, dan alamat halaman lamanya masih relevan, tetapi tampilan, kenyamanan akses di ponsel, atau performa teknisnya sudah menghambat calon pelanggan. Sebaliknya, membuat website baru dari awal (rebuild) lebih masuk akal jika teknologi lama terlalu kaku untuk dikembangkan atau arah layanan bisnis sudah berubah total."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Di lapangan, banyak pemilik usaha bingung membedakan kapan cukup melakukan perawatan rutin, kapan butuh redesign tampilan, dan kapan harus memakai jasa revamp website. Mengetahui batas masing-masing pendekatan mencegah bisnismu membuang anggaran untuk perbaikan yang terlalu kecil—atau sebaliknya, membangun ulang sesuatu yang sebenarnya masih bisa dipertahankan."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Apa Itu Revamp Website dan Apa Bedanya dengan Maintenance, Redesign, dan Rebuild?" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Revamp website adalah pembaruan terstruktur pada website yang sudah ada—mencakup penyegaran antarmuka, penataan ulang alur informasi, perbaikan responsivitas ponsel, pembersihan kode atau teknologi, serta pemindahan konten relevan dengan tetap menjaga kelangsungan tautan penting."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "content": [
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableHeader", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Pendekatan" }] }] },
+              { "type": "tableHeader", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Fokus Utama" }] }] },
+              { "type": "tableHeader", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Kapan Tepat Dipilih" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Maintenance (Perawatan)", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Update konten berkala, backup, cek keamanan & performa rutin" }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Struktur dan tampilan website sudah baik, hanya butuh dijaga tetap segar dan aman" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Redesign Tampilan", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Pembaruan visual, tipografi, warna, dan tata letak antarmuka" }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Fondasi teknis masih sehat, namun visual sudah terasa kuno atau kurang selaras dengan brand" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Revamp Website", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Penataan ulang UI/UX, alur konten, responsivitas, stack teknis, dan migrasi URL" }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Situs lama berat, sulit dipakai di ponsel, struktur berantakan, tetapi aset konten/domain masih layak dibawa" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Rebuild / Website Baru", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Perancangan arsitektur, desain, dan sistem dari awal" }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Platform lama terlalu membatasi, model bisnis berubah drastis, atau hampir semua konten harus ditulis ulang" }] }] }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Tanda Website Bisnismu Membutuhkan Pembaruan" }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 3 },
+        "content": [
+          { "type": "text", "text": "1. Tampilan Sulit Digunakan di Ponsel" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Jika pengunjung harus memperbesar layar untuk membaca teks, menu sulit ditutup, atau tombol WhatsApp terpotong di layar kecil, pengalaman calon pelanggan langsung terganggu. Prinsip dalam "
+          },
+          {
+            "type": "text",
+            "text": "Responsive Web Design Basics di web.dev",
+            "marks": [
+              { "type": "link", "attrs": { "href": "https://web.dev/articles/responsive-web-design-basics" } }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " menekankan bahwa tata letak dan gambar harus menyesuaikan lebar perangkat tanpa mengorbankan keterbacaan maupun fungsi interaksi."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 3 },
+        "content": [
+          { "type": "text", "text": "2. Informasi Bisnis Sudah Tidak Mewakili Kondisi Sekarang" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Daftar layanan yang sudah dihentikan, nomor kontak lama yang tidak lagi aktif, atau positioning usaha yang berubah membuat calon pelanggan ragu. Ketika struktur menu pun tidak lagi menampung layanan barumu secara rapi, pembaruan menyeluruh lebih efektif daripada menambal teks di sana-sini."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 3 },
+        "content": [
+          { "type": "text", "text": "3. Halaman Terasa Lambat atau Sering Bergeser saat Dimuat" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Gambar berukuran terlalu besar yang tidak dikompresi, plugin menumpuk, atau skrip lama yang berat dapat memperlambat waktu tampil konten utama dan membuat interaksi terasa tersendat. Panduan "
+          },
+          {
+            "type": "text",
+            "text": "Web Vitals di web.dev",
+            "marks": [{ "type": "link", "attrs": { "href": "https://web.dev/articles/vitals" } }]
+          },
+          {
+            "type": "text",
+            "text": " merangkum tiga ukuran pengalaman pengguna yang penting: kecepatan konten utama muncul (LCP), responsivitas interaksi (INP), dan kestabilan tata letak agar elemen tidak meloncat saat halaman dimuat (CLS)."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 3 },
+        "content": [
+          { "type": "text", "text": "4. Keterbatasan Teknis Saat Tim Ingin Mengelola Konten" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Banyak website lama dibangun tanpa CMS yang rapi atau memakai dependensi usang sehingga untuk mengganti satu paragraf atau menambah proyek baru saja tim internal harus meminta bantuan programmer. Tanda teknis lain yang perlu diperhatikan adalah belum aktifnya HTTPS atau sertifikat SSL yang bermasalah."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Kapan Cukup Maintenance dan Kapan Harus Rebuild Total?" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Ilustrasi kasus A (cukup perawatan dan penyegaran ringan): sebuah usaha jasa lokal sudah memiliki company profile yang cepat di ponsel, struktur menunya jelas, dan alur kontaknya lancar, tetapi artikel serta daftar layanannya belum diperbarui selama setahun. Dalam kondisi ini, bisnis cukup mengaktifkan perawatan website berkala dan menyegarkan materi konten tanpa membangun ulang seluruh sistem."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Ilustrasi kasus B (lebih tepat revamp): sebuah bisnis kuliner atau konsultan memiliki website berumur beberapa tahun dengan alamat domain yang sudah dikenal pelanggan dan beberapa artikel yang masih relevan, tetapi tampilannya padat di ponsel, CMS-nya lambat, dan tata letak layanannya membingungkan. Revamp memindahkan konten yang masih berguna ke antarmuka baru dengan struktur teknis yang lebih ringan."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Ilustrasi kasus C (lebih tepat website baru / rebuild total): sebuah usaha beralih dari sekadar profil statis menjadi platform dengan katalog dinamis, sistem pemesanan terjadwal, atau struktur konten yang sama sekali berbeda, sementara kode lamanya sulit dimodifikasi. Membangun ulang dari arsitektur baru jauh lebih bersih daripada memaksakan tambahan fitur di atas fondasi lama."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Menjaga Tautan Lama dan Fondasi SEO Saat Revamp" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Salah satu risiko terbesar saat memperbarui website bisnis adalah tautan halaman lama berubah sehingga pengunjung dari Google, media sosial, atau kartu nama menemukan halaman 404 (tidak ditemukan). Untuk mencegah hal ini, daftar seluruh URL lama yang masih aktif perlu dipetakan sebelum peluncuran."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Apabila alamat halaman harus berubah pada struktur baru, terapkan pengalihan permanen server-side berupa 301 redirect ke halaman pengganti yang paling relevan. Menurut dokumentasi "
+          },
+          {
+            "type": "text",
+            "text": "Redirects and Google Search dari Google Search Central",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://developers.google.com/search/docs/crawling-indexing/301-redirects"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", pengalihan permanen membantu peramban dan mesin pencari memahami lokasi halaman terbaru tanpa memutus rantai menuju URL tujuan. Meski demikian, perlu dicatat secara jujur bahwa pembaruan struktur, konten, maupun redirect tidak pernah dapat dijadikan jaminan mutlak bahwa peringkat pencarian akan tetap sama atau langsung naik, karena hasil pencarian bergantung pada evaluasi mesin pencari dan persaingan kata kunci yang dinamis."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Checklist Evaluasi Website Lama Sebelum Memutuskan" }
+        ]
+      },
+      {
+        "type": "orderedList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Uji website sendiri di layar ponsel selama dua menit dan catat bagian yang sulit dibaca atau diklik." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Periksa seluruh informasi produk, harga, alamat, dan tautan WhatsApp—apakah masih sesuai kondisi usaha hari ini." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Cek apakah tim internal mudah memperbarui teks atau gambar tanpa kendala teknis." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Inventarisasi URL penting (halaman layanan, artikel, kontak) yang sudah pernah dibagikan ke pelanggan." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Bandingkan perkiraan cakupan biaya revamp dengan membuat baru berdasarkan lingkup teknis dan kesiapan anggaranmu." }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Untuk membantu menimbang sisi anggaran maupun memilih tim pelaksana, kamu juga dapat membaca artikel "
+          },
+          {
+            "type": "text",
+            "text": "Berapa Biaya Pembuatan Website Profesional",
+            "marks": [{ "type": "link", "attrs": { "href": "/blog/biaya-pembuatan-website-profesional" } }]
+          },
+          { "type": "text", "text": " dan " },
+          {
+            "type": "text",
+            "text": "Cara Memilih Jasa Pembuatan Website Profesional untuk Bisnis",
+            "marks": [{ "type": "link", "attrs": { "href": "/blog/cara-memilih-jasa-pembuatan-website" } }]
+          },
+          { "type": "text", "text": "." }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Langkah Selanjutnya" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keputusan terbaik selalu dimulai dari audit jujur terhadap kondisi website yang ada saat ini. Jika fondasinya masih layak dipertahankan, revamp membantu memperbarui pengalaman pengunjung secara terarah tanpa memulai dari nol."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Konsultasikan Revamp Website",
+            "marks": [
+              { "type": "bold" },
+              { "type": "link", "attrs": { "href": "/technology#website-revamp" } }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " bersama tim TELLU Technology atau simulasikan cakupan pembaruan awal melalui "
+          },
+          {
+            "type": "text",
+            "text": "estimator biaya website",
+            "marks": [{ "type": "link", "attrs": { "href": "/technology#estimator" } }]
+          },
+          { "type": "text", "text": "." }
+        ]
+      }
+    ]
+  }
+}

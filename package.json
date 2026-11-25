@@ -11,7 +11,8 @@
     "cms:migrate": "node scripts/cms-cli.mjs migrate",
     "cms:init-owner": "node scripts/cms-cli.mjs init-owner",
     "cms:backup": "node scripts/cms-cli.mjs backup",
-    "cms:restore": "node scripts/cms-cli.mjs restore"
+    "cms:restore": "node scripts/cms-cli.mjs restore",
+    "cms:import": "node scripts/cms-import.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

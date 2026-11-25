@@ -25,6 +25,7 @@ export interface PublicBlogPost {
   featured: boolean;
   publishedAt: string;
   publishedAtIso: string;
+  updatedAtIso: string;
   readingTimeMinutes: number;
   authorName: string;
   seoTitle: string;
@@ -51,6 +52,7 @@ function toPublicPost(post: PostRecord, defaultAuthorDisplay: string): PublicBlo
     featured: post.featured,
     publishedAt: formatJakartaDate(effectiveIso),
     publishedAtIso: effectiveIso,
+    updatedAtIso: post.updatedAt,
     readingTimeMinutes: post.readingTimeMinutes,
     authorName: post.authorName || defaultAuthorDisplay,
     seoTitle: post.seoTitle || post.title,
@@ -96,4 +98,33 @@ export function getRelatedPublicBlogPosts(slug: string, limit = 2): PublicBlogPo
     limit
   );
   return related.map((p) => toPublicPost(p, settings.defaultAuthorDisplay));
+}
+
+export interface BlogHighlightSelection {
+  primary: PublicBlogPost;
+  supporting: PublicBlogPost[];
+}
+
+/**
+ * Selects up to 3 eligible published posts for the homepage highlight:
+ * 1 featured post (or latest published post if none is featured) as primary,
+ * plus up to 2 latest distinct published posts as supporting items.
+ */
+export function selectBlogHighlightPosts(posts: PublicBlogPost[]): BlogHighlightSelection | null {
+  if (posts.length === 0) return null;
+
+  const byNewest = [...posts].sort((a, b) => b.publishedAtIso.localeCompare(a.publishedAtIso));
+  const primary = byNewest.find((p) => p.featured) ?? byNewest[0];
+  const supporting = byNewest.filter((p) => p.id !== primary.id && p.slug !== primary.slug).slice(0, 2);
+
+  return { primary, supporting };
+}
+
+export function getHomepageBlogHighlight(nowIso = new Date().toISOString()): BlogHighlightSelection | null {
+  const db = getDb();
+  const settings = getCmsSettings(db);
+  const publicPosts = listPublicPosts(db, nowIso).map((p) =>
+    toPublicPost(p, settings.defaultAuthorDisplay)
+  );
+  return selectBlogHighlightPosts(publicPosts);
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPublicBlogPost, getRelatedPublicBlogPosts } from "@/lib/blog";
+import { buildArticleJsonLd, serializeJsonLd } from "@/lib/seo-jsonld";
 import { StructuredArticleRenderer } from "@/components/blog/structured-article-renderer";
 import { HomeMotion } from "@/components/home/home-motion";
 import { Icon } from "@/components/ui/icon";
@@ -25,8 +26,12 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
     };
   }
 
+  const pageTitle = post.seoTitle.toUpperCase().includes("TELLU")
+    ? { absolute: `${post.seoTitle} — Blog` }
+    : `${post.seoTitle} — Blog`;
+
   return {
-    title: `${post.seoTitle} — Blog`,
+    title: pageTitle,
     description: post.seoDescription,
     ...(post.canonicalUrl
       ? { alternates: { canonical: post.canonicalUrl } }
@@ -53,6 +58,7 @@ export default async function ArticleDetailPage({ params }: ArticlePageProps) {
   }
 
   const relatedPosts = getRelatedPublicBlogPosts(post.slug, 2);
+  const jsonLdSchemas = buildArticleJsonLd(post, siteUrl);
 
   const getCategoryStyles = (ecosystem: typeof post.ecosystem, category: string) => {
     const key = ecosystem ?? category;
@@ -81,6 +87,13 @@ export default async function ArticleDetailPage({ params }: ArticlePageProps) {
 
   return (
     <main className="bg-[#fcfbf8] min-h-screen pt-32 sm:pt-40 pb-28">
+      {jsonLdSchemas.map((schema, idx) => (
+        <script
+          key={idx}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(schema) }}
+        />
+      ))}
       <HomeMotion>
         <div className="page-container">
           <div data-reveal className="mb-8">

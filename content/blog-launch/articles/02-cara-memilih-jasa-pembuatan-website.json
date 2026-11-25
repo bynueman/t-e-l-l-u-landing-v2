@@ -1,0 +1,497 @@
+{
+  "order": 2,
+  "title": "Cara Memilih Jasa Pembuatan Website Profesional untuk Bisnis",
+  "slug": "cara-memilih-jasa-pembuatan-website",
+  "excerpt": "Pelajari cara memilih jasa pembuatan website profesional berdasarkan keaslian portfolio, kecocokan lingkup kerja, fondasi SEO, kepemilikan domain, dan dukungan pasca peluncuran.",
+  "categorySlug": "technology",
+  "tags": [
+    "Jasa Pembuatan Website",
+    "Web Developer",
+    "Portfolio Website",
+    "UMKM",
+    "Perusahaan"
+  ],
+  "seoTitle": "Cara Memilih Jasa Pembuatan Website Profesional",
+  "seoDescription": "Pelajari cara memilih jasa pembuatan website profesional berdasarkan portfolio, fitur, biaya, kepemilikan website, dan dukungan setelah peluncuran.",
+  "canonicalUrl": "",
+  "featured": false,
+  "primaryKeyword": "jasa pembuatan website profesional",
+  "secondaryKeywords": [
+    "jasa pembuatan website",
+    "jasa website",
+    "jasa web developer",
+    "jasa website perusahaan",
+    "jasa website UMKM",
+    "web development Indonesia"
+  ],
+  "searchIntent": "Commercial investigation untuk memilih penyedia jasa pembuatan website yang tepat",
+  "cover": {
+    "filename": "memilih-jasa-pembuatan-website.webp",
+    "altText": "Meja kerja rapi menampilkan laptop dan ponsel berdiri dengan tata letak website responsif yang konsisten beserta buku catatan dan pena."
+  },
+  "structuredContent": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Memilih jasa pembuatan website profesional sebaiknya didasarkan pada empat bukti nyata: kesesuaian pengalaman dengan kebutuhan bisnismu, kualitas proyek yang benar-benar bisa diakses di portfolio, kejelasan lingkup kerja serta hak kepemilikan aset digital, dan kejelasan dukungan setelah website tayang."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Banyak pemilik UMKM maupun perusahaan mengalami kendala bukan karena teknologinya keliru, melainkan karena sejak awal tidak menyamakan ekspektasi dengan jasa web developer yang dipilih. Panduan ini merangkum hal-hal konkret yang perlu kamu periksa sebelum menyetujui penawaran kerja."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "1. Pahami Kebutuhan Bisnismu Sebelum Menghubungi Developer" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Setiap penyedia jasa website biasanya memiliki kekuatan yang berbeda—ada yang berfokus pada company profile dan landing page bisnis, ada yang mendalami toko online skala besar, dan ada pula yang menangani sistem internal. Sebelum membandingkan vendor, pastikan kamu sudah mengetahui peran website tersebut bagi usahamu: apakah sebagai profil resmi perusahaan, pengumpul prospek via WhatsApp, atau platform dengan katalog dan pemesanan."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Jika kamu juga ingin menyusun gambaran anggaran sebelum berdiskusi, kamu bisa memetakan komponennya lebih dulu melalui panduan "
+          },
+          {
+            "type": "text",
+            "text": "Berapa Biaya Pembuatan Website Profesional",
+            "marks": [{ "type": "link", "attrs": { "href": "/blog/biaya-pembuatan-website-profesional" } }]
+          },
+          { "type": "text", "text": "." }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "2. Periksa Portfolio Asli, Bukan Sekadar Gambar Mockup" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Gambar mockup statis terlihat rapi di media sosial, tetapi tidak menunjukkan bagaimana sebuah website bekerja saat dibuka pelanggan. Ketika meninjau portfolio jasa website perusahaan atau UMKM, buka situs aslinya langsung di browser ponsel dan desktop, lalu perhatikan:"
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Kejelasan informasi di layar pertama: ", "marks": [{ "type": "bold" }] },
+                  { "type": "text", "text": "pengunjung langsung memahami usaha apa yang dijalankan dan langkah apa yang bisa diambil." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Kenyamanan navigasi di ponsel: ", "marks": [{ "type": "bold" }] },
+                  { "type": "text", "text": "teks terbaca tanpa harus memperbesar layar, tombol mudah diketuk, dan tata letak tidak melebar ke samping." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Kecepatan akses dan kerapian tautan: ", "marks": [{ "type": "bold" }] },
+                  { "type": "text", "text": "halaman tidak terasa lambat dan seluruh tautan kontak atau formulir berfungsi wajar." }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sebagai contoh cara penyajian portfolio yang transparan, di bagian "
+          },
+          {
+            "type": "text",
+            "text": "Portfolio Website TELLU Technology",
+            "marks": [{ "type": "link", "attrs": { "href": "/technology#selected-work" } }]
+          },
+          {
+            "type": "text",
+            "text": ", kamu bisa melihat langsung daftar proyek yang sudah tayang—seperti situs company profile konsultan pendidikan YUK Education, bengkel otomotif Sukarindik Jaya Per, maupun pembaruan website Cafe Go Digital—lengkap dengan pratinjau tampilan desktop/mobile serta tautan ke website aslinya untuk diperiksa sendiri."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "3. Evaluasi Kelayakan Teknis: Mobile, Aksesibilitas, dan Fondasi SEO" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Di Indonesia, sebagian besar calon pelanggan pertama kali membuka website bisnis melalui ponsel lewat tautan WhatsApp, Instagram, atau hasil pencarian Google. Dokumentasi "
+          },
+          {
+            "type": "text",
+            "text": "Mobile-first Indexing Best Practices dari Google Search Central",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing"
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " menjelaskan bahwa Google terutama menggunakan versi mobile sebuah halaman untuk pengindeksan dan peringkat. Selain itu, penerapan desain responsif yang baik—seperti yang dijabarkan dalam panduan "
+          },
+          {
+            "type": "text",
+            "text": "Responsive Web Design Basics di web.dev",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": { "href": "https://web.dev/articles/responsive-web-design-basics" }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "—memastikan konten tetap proporsional di berbagai ukuran layar tanpa perlu memelihara versi situs terpisah."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Perhatikan juga fondasi aksesibilitas dan SEO teknis dasar. Merujuk pada "
+          },
+          {
+            "type": "text",
+            "text": "Introduction to Web Accessibility dari W3C WAI",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": { "href": "https://www.w3.org/WAI/fundamentals/accessibility-intro/" }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " dan "
+          },
+          {
+            "type": "text",
+            "text": "SEO Starter Guide",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": { "href": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide" }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", website yang baik memiliki struktur heading yang logis (satu H1 yang jelas diikuti H2/H3), kontras warna teks yang mudah dibaca, deskripsi alternatif pada gambar, judul halaman serta meta description yang relevan, serta peta situs XML."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "4. Pastikan Kejelasan Kepemilikan Website, Domain, dan Hosting" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Ini salah satu aspek terpenting dalam web development Indonesia yang kerap terlewat saat memulai proyek. Nama domain adalah alamat resmi bisnismu di internet. Tanyakan sejak awal:"
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Apakah domain didaftarkan menggunakan identitas atau email resmi milik bisnismu?" }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Apakah kamu mendapatkan akses administratif ke panel CMS, akun hosting, atau repositori kode setelah proyek selesai?" }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Bagaimana prosedur apabila di masa depan bisnismu ingin memindahkan hosting atau mengelola situs dengan tim internal?" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Penyedia jasa yang profesional akan menjelaskan kepemilikan aset, akses admin, serta tanggung jawab perpanjangan domain dan hosting secara transparan sebelum pengerjaan dimulai."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "5. Periksa Alur Revisi, Serah Terima, dan Dukungan Pasca Peluncuran" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Proses pembuatan website jarang selesai dalam satu kali kirim. Pastikan proposal kerja menyebutkan jumlah putaran revisi yang wajar, apa yang termasuk dalam revisi desain awal versus penambahan fitur baru, serta jadwal serah terima. Tanyakan juga bentuk panduan pemakaian (dokumentasi singkat atau sesi penjelasan penggunaan CMS) dan opsi dukungan teknis setelah website tayang—baik berupa masa garansi perbaikan bug maupun layanan perawatan berkala."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Tanda Peringatan pada Penawaran yang Terlalu Samar" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Berhati-hatilah saat menemui penawaran jasa website yang tidak mencantumkan rincian kerja secara tertulis. Beberapa tanda peringatan yang layak ditanyakan ulang antara lain:"
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "content": [
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Tidak ada daftar halaman atau fitur yang disepakati, hanya label umum seperti \"website lengkap\"." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Biaya perpanjangan domain, hosting, dan maintenance tahun berikutnya tidak dijelaskan sejak awal." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Adanya janji pasti mengenai peringkat satu Google dalam waktu singkat tanpa melihat kondisi konten, persaingan pasar, maupun otoritas situs." }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "text", "text": "Ketentuan kepemilikan akses admin atau domain tidak jelas jika kerja sama dihentikan." }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Checklist Evaluasi Penyedia Jasa Pembuatan Website" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Gunakan daftar periksa ini saat menilai proposal dari calon mitra pembuatan website:"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "content": [
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableHeader", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Aspek Evaluasi" }] }] },
+              { "type": "tableHeader", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Pertanyaan Kunci Sebelum Menyetujui Proposal" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Portfolio Nyata", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Apakah ada tautan website asli yang bisa dibuka langsung dan diuji di ponsel?" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Lingkup Kerja", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Apakah jumlah halaman, fitur utama, integrasi kontak/CMS, dan estimasi waktu tertulis jelas?" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Teknis & SEO Dasar", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Apakah mencakup desain responsif mobile, HTTPS/SSL, metadata SEO dasar, dan peta situs?" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Kepemilikan Aset", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Apakah klien memegang akses penuh admin dan kejelasan kepemilikan domain/hosting?" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Revisi & Serah Terima", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Berapa kali batas revisi yang disediakan, dan apakah ada panduan pemakaian saat serah terima?" }] }] }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Dukungan Pasca Tayang", "marks": [{ "type": "bold" }] }] }] },
+              { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Bagaimana ketentuan perbaikan bug awal, backup berkala, serta biaya maintenance jika dibutuhkan?" }] }] }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": { "level": 2 },
+        "content": [
+          { "type": "text", "text": "Penutup: Pilih Mitra yang Mengajak Diskusi Terstruktur" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Penyedia jasa website yang tepat tidak sekadar menawarkan tampilan menarik, tetapi membantu menerjemahkan tujuan bisnis menjadi website yang mudah dipakai pelanggan dan jelas pengelolaannya di masa depan. Jika kamu sudah memiliki website lama dan masih menimbang apakah perlu membuat baru atau memperbaruinya, baca juga artikel "
+          },
+          {
+            "type": "text",
+            "text": "Website Baru atau Revamp? Kenali Kebutuhan Website Bisnismu",
+            "marks": [{ "type": "link", "attrs": { "href": "/blog/website-baru-atau-revamp" } }]
+          },
+          { "type": "text", "text": "." }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Lihat Layanan Pembuatan Website",
+            "marks": [
+              { "type": "bold" },
+              { "type": "link", "attrs": { "href": "/technology" } }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " di TELLU Technology untuk meninjau layanan pembuatan website baru, revamp, domain & hosting, portfolio, hingga simulasi estimasi awal sebelum konsultasi."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -5,8 +5,11 @@ import { Hero } from "@/components/home/hero";
 import { EcosystemOverview } from "@/components/home/ecosystem-overview";
 import { HomeMotion } from "@/components/home/home-motion";
 import { FeaturedWork } from "@/components/home/featured-work";
+import { BlogHighlight } from "@/components/home/blog-highlight";
 import { Icon } from "@/components/ui/icon";
 import { TelluFloatingAccent } from "@/components/layout/tellu-floating-accent";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: { absolute: pageMetadata.title },
@@ -40,6 +43,7 @@ export default function Home() {
         <section id="services" className="home-capabilities">
           <div className="page-container capabilities-inner"><h2 className="display" data-reveal>{copy.servicesTitle}</h2><div data-stagger className="capability-links">{[["Technology", "/technology"], ["Creative", "/creative"], ["Business", "/business"]].map(([name, href], index) => <Link key={href} href={href}><Icon name={(["browser", "palette", "app"] as const)[index]} />{name}</Link>)}</div></div>
         </section>
+        <BlogHighlight />
         <section id="faq" className="home-faq page-container section-space">
           <div data-reveal><h2 className="display">{copy.faqTitle}</h2></div>
           <div data-stagger className="faq-list">{copy.faqs.map(([question, answer], index) => <details key={question}><summary><span className="faq-number">0{index + 1}</span>{question}<span className="faq-toggle" aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div>
