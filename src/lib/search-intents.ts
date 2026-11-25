@@ -1,11 +1,12 @@
 export const searchDestinations = [
-  { label: "Website Revamp", href: "/technology#website-revamp", phrases: ["revamp website", "redesign website", "perbarui website"], keywords: ["revamp", "redesign"] },
-  { label: "Selected Works", href: "/technology#selected-work", phrases: ["lihat portfolio website", "website portfolio", "lihat portofolio", "selected works"], keywords: ["portfolio", "portofolio"] },
-  { label: "Web Development", href: "/technology#web-development", phrases: ["buat website", "bikin website", "web development", "company website"], keywords: ["website", "web", "situs", "site"] },
-  { label: "Domain Services", href: "/technology#domain", phrases: ["beli domain", "nama domain", "domain name"], keywords: ["domain", "hosting"] },
-  { label: "Social Media Management", href: "/creative#social-media", phrases: ["kelola instagram", "social media", "media sosial"], keywords: ["instagram", "sosmed", "tiktok", "sosial"] },
-  { label: "Creative Agency", href: "/creative#creative-agency", phrases: ["bikin konten", "buat konten", "creative agency", "desain brand"], keywords: ["konten", "content", "branding", "desain", "design", "kreatif"] },
-  { label: "SaaS Products", href: "/business#products", phrases: ["aplikasi bisnis", "business software", "saas product"], keywords: ["saas", "software", "aplikasi", "app", "produk"] },
+  { label: "Website Revamp", href: "/technology#website-revamp", phrases: ["revamp website", "redesign website", "perbarui website", "memperbarui website", "website lama", "perbaiki website"], keywords: ["revamp", "redesign", "perbarui"] },
+  { label: "Selected Works", href: "/technology#selected-work", phrases: ["lihat portfolio website", "website portfolio", "lihat portofolio", "selected works", "contoh website"], keywords: ["portfolio", "portofolio"] },
+  { label: "Paket & Estimasi Biaya", href: "/technology#packages", phrases: ["berapa biaya", "biaya website", "biaya bikin website", "biaya buat website", "harga website", "harga pembuatan website", "paket website", "estimasi biaya", "website pricing", "website cost"], keywords: ["biaya", "harga", "paket", "estimasi", "tarif", "pricing"] },
+  { label: "Web Development", href: "/technology#web-development", phrases: ["buat website", "bikin website", "web development", "company website", "jasa pembuatan website", "company profile"], keywords: ["website", "web", "situs", "site"] },
+  { label: "Domain Services", href: "/technology#domain", phrases: ["beli domain", "nama domain", "domain name", "siapkan domain"], keywords: ["domain", "hosting"] },
+  { label: "Social Media Management", href: "/creative#social-media", phrases: ["kelola instagram", "mengelola instagram", "social media", "media sosial", "kelola media sosial"], keywords: ["instagram", "sosmed", "tiktok", "sosial"] },
+  { label: "Creative Agency", href: "/creative#creative-agency", phrases: ["bikin konten", "buat konten", "creative agency", "desain brand", "jasa branding"], keywords: ["konten", "content", "branding", "desain", "design", "kreatif"] },
+  { label: "SaaS Products", href: "/business#products", phrases: ["aplikasi bisnis", "business software", "saas product", "sistem bisnis", "sistem pencatatan", "pencatatan bisnis", "software bisnis"], keywords: ["saas", "software", "aplikasi", "app", "produk", "sistem", "pencatatan", "operasional"] },
   { label: "Tentang TELLU", href: "/#tentang", phrases: ["apa itu tellu", "about tellu", "tentang tellu"], keywords: ["tellu", "about", "tentang"] },
 ] as const;
 

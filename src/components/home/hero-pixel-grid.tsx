@@ -13,9 +13,11 @@ export function HeroPixelGrid() {
   const id = useId();
 
   useGSAP(() => {
-    const layer = scope.current!;
-    const hero = layer.closest<HTMLElement>("#hero")!;
-    const surface = canvas.current!;
+    if (!scope.current || !canvas.current) return;
+    const layer: HTMLDivElement = scope.current;
+    const hero: HTMLElement = layer.closest<HTMLElement>("#hero")!;
+    if (!hero) return;
+    const surface: HTMLCanvasElement = canvas.current;
     const media = gsap.matchMedia();
     media.add("(min-width: 600px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)", () => {
       const ctx = surface.getContext("2d");
@@ -32,9 +34,6 @@ export function HeroPixelGrid() {
       function draw(left: number, top: number, right: number, bottom: number, distort = true) {
         ctx!.save();
         ctx!.clearRect(left, top, right - left, bottom - top);
-        ctx!.strokeStyle = "#6f6757";
-        ctx!.fillStyle = "#7c7360";
-        ctx!.lineWidth = .6;
         const firstX = Math.max(0, Math.floor(left / step));
         const firstY = Math.max(0, Math.floor(top / step));
         const lastX = Math.min(Math.ceil(width / step), Math.ceil(right / step));
@@ -44,20 +43,44 @@ export function HeroPixelGrid() {
             const x = col * step + step / 2, y = row * step + step / 2;
             const offset = deformPixel(x, y, field.x, field.y, distort ? field.strength : 0, radius);
             const shifted = offset.rotation !== 0;
+            const influence = offset.rotation ? Math.min(1, offset.rotation / .085) : 0;
             if (shifted) {
               ctx!.save();
               ctx!.translate(x + offset.x, y + offset.y);
               ctx!.rotate(offset.rotation);
             }
-            const left = (shifted ? 0 : x) + 1 - step / 2;
-            const top = (shifted ? 0 : y) + 1 - step / 2;
-            ctx!.globalAlpha = .085 + offset.opacity;
-            ctx!.strokeRect(left, top, step - 2, step - 2);
-            const opacity = (fills.get(`${col % 6}:${row % 6}`) ?? 0) + offset.opacity;
-            if (opacity) {
-              ctx!.globalAlpha = opacity;
-              ctx!.fillRect(left, top, step - 2, step - 2);
+            const cellLeft = (shifted ? 0 : x) + 1 - step / 2;
+            const cellTop = (shifted ? 0 : y) + 1 - step / 2;
+
+            // Line contrast: subtle 0.04 in idle, elevating to 0.20 in active cursor swirl
+            const lineAlpha = .04 + influence * .16;
+            ctx!.strokeStyle = "#20211f";
+            ctx!.lineWidth = .5 + influence * .35;
+            ctx!.globalAlpha = lineAlpha;
+            ctx!.strokeRect(cellLeft, cellTop, step - 2, step - 2);
+
+            // Cell fills: idle pattern accents + fluid active vortex ripple
+            const hasStaticFill = fills.has(`${col % 6}:${row % 6}`);
+            const baseFill = (fills.get(`${col % 6}:${row % 6}`) ?? 0) * .7;
+
+            if (hasStaticFill) {
+              const activeFillAlpha = baseFill + influence * .14;
+              if (influence > .35) {
+                // Subtle warm amber accent on selected cells in the inner vortex
+                ctx!.fillStyle = "#d47814";
+                ctx!.globalAlpha = activeFillAlpha * .85;
+              } else {
+                ctx!.fillStyle = "#20211f";
+                ctx!.globalAlpha = activeFillAlpha;
+              }
+              ctx!.fillRect(cellLeft, cellTop, step - 2, step - 2);
+            } else if (influence > .14) {
+              // Soft tactile wave shading across cells reacting to cursor movement
+              ctx!.fillStyle = "#20211f";
+              ctx!.globalAlpha = (influence - .14) * .11;
+              ctx!.fillRect(cellLeft, cellTop, step - 2, step - 2);
             }
+
             if (shifted) ctx!.restore();
           }
         }
@@ -66,7 +89,7 @@ export function HeroPixelGrid() {
 
       function patch(point: { x: number; y: number }, distort = true) {
         // Whole-cell bounds and a quiet outer row avoid clipping seams during restoration.
-        const extent = radius + step + 14;
+        const extent = radius + step * 2 + 10;
         const left = Math.max(0, Math.floor((point.x - extent) / step) * step);
         const top = Math.max(0, Math.floor((point.y - extent) / step) * step);
         const right = Math.min(width, Math.ceil((point.x + extent) / step) * step);
@@ -80,11 +103,11 @@ export function HeroPixelGrid() {
           ctx!.restore();
         }
       }
-      const xTo = gsap.quickTo(field, "x", { duration: .16, ease: "power3.out" });
-      const yTo = gsap.quickTo(field, "y", { duration: .16, ease: "power3.out" });
-      const strengthTo = gsap.quickTo(field, "strength", { duration: .16, ease: "power2.out" });
-      function release() { strengthTo.tween.duration(.38); strengthTo(0); }
-      const settle = gsap.delayedCall(.12, release).pause();
+      const xTo = gsap.quickTo(field, "x", { duration: .11, ease: "power2.out" });
+      const yTo = gsap.quickTo(field, "y", { duration: .11, ease: "power2.out" });
+      const strengthTo = gsap.quickTo(field, "strength", { duration: .14, ease: "power2.out" });
+      function release() { strengthTo.tween.duration(.36); strengthTo(0); }
+      const settle = gsap.delayedCall(.14, release).pause();
 
       function tick() {
         if (previous) patch(previous, false);
@@ -115,7 +138,7 @@ export function HeroPixelGrid() {
         if (width === bounds.width && height === bounds.height && step === nextStep) return;
         reset();
         width = bounds.width; height = bounds.height; step = nextStep;
-        radius = width < 1000 ? 150 : 190;
+        radius = width < 1000 ? 175 : 215;
         ratio = Math.min(window.devicePixelRatio || 1, 1.5);
         surface.width = Math.ceil(width * ratio);
         surface.height = Math.ceil(height * ratio);
@@ -130,8 +153,8 @@ export function HeroPixelGrid() {
         const x = event.clientX + window.scrollX - originX;
         const y = event.clientY + window.scrollY - originY;
         xTo(x, running ? undefined : x); yTo(y, running ? undefined : y);
-        strengthTo.tween.duration(.16);
-        strengthTo(width < 1000 ? .7 : 1);
+        strengthTo.tween.duration(.14);
+        strengthTo(width < 1000 ? .85 : 1);
         settle.restart(true);
         if (!running) {
           running = true;
@@ -172,10 +195,10 @@ export function HeroPixelGrid() {
   return <div ref={scope} className="hero-pixel-grid" aria-hidden="true" data-active="false">
     <svg className="pixel-static" width="100%" height="100%">
       <defs>
-        <pattern id={`${id}-cell`} width="32" height="32" patternUnits="userSpaceOnUse"><path d="M1 1h30v30H1Z" fill="none" stroke="#6f6757" strokeOpacity=".085" strokeWidth=".6" /></pattern>
+        <pattern id={`${id}-cell`} width="32" height="32" patternUnits="userSpaceOnUse"><path d="M1 1h30v30H1Z" fill="none" stroke="#20211f" strokeOpacity=".045" strokeWidth=".5" /></pattern>
         <pattern id={id} width="192" height="192" patternUnits="userSpaceOnUse">
           <rect width="192" height="192" fill={`url(#${id}-cell)`} />
-          {pixelFills.map(([x, y, opacity]) => <rect key={`${x}:${y}`} x={x * 32 + 1} y={y * 32 + 1} width="30" height="30" fill="#7c7360" fillOpacity={opacity} />)}
+          {pixelFills.map(([x, y, opacity]) => <rect key={`${x}:${y}`} x={x * 32 + 1} y={y * 32 + 1} width="30" height="30" fill="#20211f" fillOpacity={opacity * .7} />)}
         </pattern>
         <pattern id={`${id}-tablet`} href={`#${id}`} patternTransform="scale(1.25)" />
         <pattern id={`${id}-mobile`} href={`#${id}`} patternTransform="scale(1.5)" />

@@ -1,29 +1,34 @@
 import type { Dictionary } from "../locales";
 export const hero = {
   "title": "What would you like to create?",
-  "typingTitles": ["Need a website for your business?", "Want your brand to stand out?", "Ready for more engaging content?", "Need systems for your business?"],
-  "description": "From business websites and creative content to digital solutions, find what you need and take the next step.",
+  "typingTitles": [
+    "Need a website for your business?",
+    "Want your brand to stand out?",
+    "Ready for clearer content?",
+    "Need software for your operations?"
+  ],
+  "description": "TELLU helps you build a professional website, shape your brand identity, and set up digital systems tailored to your business needs.",
   "stage": "Explore what we do",
   "scroll": "Get to know TELLU",
   "label": "TELLU digital services",
   "examples": [
     "Build a business website",
-    "Manage social media",
-    "Find a domain"
+    "Check website pricing",
+    "Manage social media"
   ],
   "pause": "Pause decorative motion and headline animation",
   "play": "Resume decorative motion and headline animation",
   "nav": "Explore services",
-  "signature": "A little space for your next big idea."
+  "signature": "From Yogyakarta for growing businesses."
 } satisfies Dictionary["hero"];
 
 export const search = {
-  "placeholder": "Tell us what you're looking for...",
+  "placeholder": "Search services, e.g. build a website...",
   "label": "Search TELLU services",
   "submit": "Find services",
-  "empty": "Tell us what you're looking for first.",
-  "choices": "A few services could fit. Choose one:",
-  "unknown": "No clear match yet. Explore these services:",
+  "empty": "Enter the service or need you are looking for first.",
+  "choices": "A few services match your search. Choose the closest fit:",
+  "unknown": "No specific service matched yet. Explore our main categories:",
   "title": "What do you need?",
   "close": "Close search",
   "open": "Open TELLU search",
@@ -31,12 +36,14 @@ export const search = {
   "dock": "Find a service",
   "region": "TELLU search",
   "hint": "Press Enter to search",
-  "matched": "Service found. Opening the page…"
+  "matched": "Taking you to the matching service…"
 } satisfies Dictionary["search"];
 
 export const shared = {
+  "home": "Home",
   "services": "Services",
-  "work": "Work",
+  "work": "Portfolio",
+  "blog": "Blog",
   "about": "About",
   "contact": "Contact",
   "main": "Main navigation",
@@ -44,7 +51,7 @@ export const shared = {
   "footer": "Footer navigation",
   "open": "Open menu",
   "close": "Close menu",
-  "description": "Websites, creative content, and software for your business.",
+  "description": "Website development, branding, social media management, and business software from TELLU in Yogyakarta.",
   "tagline": "Technology · Creative · Business",
   "start": "Find the right service"
 } satisfies Dictionary["shared"];
@@ -64,58 +71,58 @@ export const portfolio = {
   "preview": "Project preview",
   "screenshot": "Website screenshot",
   "image": "Project screenshot",
-  "explore": "Explore live website",
-  "pending": "Preview is awaiting permission from the website owner.",
+  "explore": "Demo Website",
+  "pending": "Live preview is awaiting permission from the website owner.",
   "openProject": "Open {name} website",
-  "unavailable": "Live preview is unavailable. You can still explore the original website.",
-  "requested": "Preview requested from the original website. If blank or blocked, return to the screenshot or open the website in a new tab.",
-  "idle": "The website loads when you choose Explore live website.",
+  "unavailable": "Live preview is unavailable. You can still open the original website.",
+  "requested": "Preview loaded from the original website. If blank or blocked, return to the screenshot or open the website in a new tab.",
+  "idle": "Live preview loads after you select Demo Website.",
   "widthNote": "Mobile view only adjusts the preview width.",
   "recovery": "Not appearing? ",
-  "back": "Back to project screenshot"
+  "back": "Back to screenshot"
 } satisfies Dictionary["portfolio"];
 
 export const home = {
   "serviceNames": [
     "Website development",
     "Domains & hosting",
-    "Creative services",
+    "Creative & branding services",
     "Social media management",
-    "SaaS solutions"
+    "Business software & SaaS"
   ],
   "aboutLabel": "TELLU / About us",
   "aboutTitle": "Three capabilities. One place to start.",
-  "aboutText": "Every business starts with a different idea. At TELLU, websites, creative work, and software solutions come together to help you take the next step.",
+  "aboutText": "Based in Yogyakarta, TELLU brings together website development, branding and creative content, and business software in one connected team.",
   "servicesLabel": "Technology · Creative · Business",
-  "servicesTitle": "So many possibilities. Start with your idea.",
-  "servicesText": "Find services for your website, brand communications, and business software needs.",
-  "workLabel": "Work / Technology",
-  "workTitle": "Ideas that have taken shape.",
-  "workText": "Explore selected projects and try live previews where available.",
-  "workCta": "Explore our work",
+  "servicesTitle": "Explore services built around your needs.",
+  "servicesText": "Find website, brand communication, and business system services in one place.",
+  "workLabel": "Portfolio / Technology",
+  "workTitle": "Websites already in production.",
+  "workText": "Review website projects we have delivered, complete with previews and direct links to the live sites.",
+  "workCta": "View Website Portfolio",
   "contactLabel": "Start here",
   "contactTitle": "Tell us about your project.",
-  "contactText": "A website, content, or software. The first step is simply telling us what you need.",
+  "contactText": "Websites, branding, or business software. Start by sharing what your business needs.",
   "contactCta": "Find services",
   "overviewLabel": "01 / TELLU services",
-  "overviewTitle": "From what you need, to your next step.",
-  "overviewText": "Websites for your business, content for your audience, and software for your work.",
+  "overviewTitle": "Three ecosystems for your business.",
+  "overviewText": "Start with the service you need right now, or combine all three as your business grows.",
   "overviewDescriptions": [
-    "A website that introduces your business clearly. From building something new to caring for what is already there.",
-    "Make room for your brand story. Through visual identity, creative content, and managed social media.",
-    "Find SaaS solutions to support your business operations. Start with the needs and functions that matter to you."
+    "Professional website development, redesigning outdated sites, domain and hosting setup, and scheduled technical care.",
+    "Visual brand identity, creative content production, and social media management to keep your communications consistent.",
+    "Business software and SaaS products designed to organize record-keeping, reporting, and day-to-day team workflows."
   ],
   "overviewServices": [
     "Websites · Domains · Care",
-    "Content · Social media",
-    "SaaS solutions"
+    "Branding · Content · Social media",
+    "Software · Business SaaS"
   ],
-  "workProvenance": "Website projects from our YUKWebsite.online journey, now part of TELLU Technology.",
+  "workProvenance": "Selected projects from the TELLU Technology division.",
   "sceneCaption": "One place to start",
   "storyLabels": [
-    "Build your digital presence",
-    "Shape your brand story",
-    "Support the way you work"
+    "Build your business website",
+    "Shape your brand presence",
+    "Support daily operations"
   ],
   "explore": "Explore",
   "faqLabel": "Before you start",
@@ -123,19 +130,19 @@ export const home = {
   "faqs": [
     [
       "Not sure where to start?",
-      "Describe what you need in the search panel. TELLU will guide you to a relevant service or offer a few options to explore."
+      "Type what you need in the search bar above, such as building a website or managing social media. You can also message us directly on WhatsApp for an initial discussion."
     ],
     [
       "Can TELLU update an existing website?",
-      "Yes. Website Revamp starts with reviewing the design, structure, responsiveness, and technical needs of your website."
+      "Yes. Our Website Revamp service starts by reviewing your current site's design, page structure, speed, and technical setup before updating it."
     ],
     [
       "Are content and social media services available?",
-      "Creative includes creative services and social media management. Choose a service to suit your brand communication and content needs."
+      "Yes, through TELLU Creative, covering visual brand identity, creative content production, and ongoing social media management."
     ],
     [
       "How are project scope and costs determined?",
-      "Pages, design, functions, and integrations inform the discussion. Costs and scope are confirmed after understanding your needs; this search does not generate automatic quotes."
+      "Scope and pricing depend on page count, design complexity, custom features, and domain or integration requirements. For websites, you can review package references and the cost estimator on the Technology page before requesting a formal quote."
     ]
   ]
 } satisfies Dictionary["home"];
@@ -145,63 +152,63 @@ export const technology = {
     [
       "web-development",
       "Website Development",
-      "We build websites that explain your business and are easy for customers to use.",
+      "New websites for company profiles, landing pages, and businesses that want to be easy for customers to find.",
       [
-        "Landing pages and company websites",
-        "Business websites and custom features",
-        "Responsive development",
-        "Technical SEO foundations and attention to performance"
+        "Promotional landing pages & company profiles",
+        "Business websites & custom functionality",
+        "Responsive layouts from mobile to desktop",
+        "Search-friendly structure & attention to load speed"
       ]
     ],
     [
       "website-revamp",
-      "Website Redesign",
-      "Update your website’s design and functionality to suit your needs today.",
+      "Website Revamp",
+      "Refresh the design, page structure, and codebase of an existing website to match your current business needs.",
       [
-        "Design and user experience updates",
-        "Clearer website structure",
-        "Responsive improvements",
-        "Technical updates and performance improvements"
+        "Interface & information-flow review",
+        "Clearer page structure",
+        "Mobile & tablet layout fixes",
+        "Code modernization & 301 redirect setup"
       ]
     ],
     [
       "domain",
       "Domains & Hosting",
-      "We help set up the domain and hosting your website needs.",
+      "Domain registration guidance, hosting setup, DNS configuration, and SSL so your site is ready to go live.",
       [
-        "Domain advice and registration assistance",
-        "DNS configuration and hosting integration",
-        "Hosting and SSL setup",
-        "Deployment support"
+        "Domain selection & registration assistance",
+        "DNS & nameserver configuration",
+        "Hosting & SSL certificate setup",
+        "Launch & migration support"
       ]
     ],
     [
       "maintenance",
       "Website Care",
-      "Keep your website up to date with the support you agree on.",
+      "Content updates, scheduled backups, and routine technical support within an agreed scope.",
       [
-        "Website and content updates",
-        "Technical and security maintenance",
-        "Backup planning",
-        "Support within the agreed scope"
+        "Scheduled text & image updates",
+        "Routine technical & security checks",
+        "Scheduled website backups",
+        "Technical troubleshooting within scope"
       ]
     ]
   ],
   "packages": [
     [
       "Starter",
-      "A practical place to start.",
-      "For landing pages, a simple online presence, and smaller website projects."
+      "For a focused online presence.",
+      "For promotional landing pages, personal brands, and SMEs starting with a single structured page."
     ],
     [
       "Business",
-      "Room to tell your business story.",
-      "For company profiles and multi-page business websites with more structured content and features."
+      "For company profiles and growing teams.",
+      "For multi-page company websites that need structured content and a self-managed CMS panel."
     ],
     [
       "Custom Solution",
-      "Built around your requirements.",
-      "For advanced integrations, tailored features, and more complex business needs."
+      "Built around custom workflows.",
+      "For websites with tailored features, e-commerce catalogs, booking flows, or external system integrations."
     ]
   ],
   "process": [
@@ -225,50 +232,53 @@ export const technology = {
   "faqs": [
     [
       "What types of websites can TELLU build?",
-      "Landing pages, company profiles, business websites, and custom features. We discuss technical feasibility and scope around your needs."
+      "Landing pages, company profiles, product catalogs, and custom web features. We review technical feasibility and scope around your requirements."
     ],
     [
-      "Can you redesign my existing website?",
-      "Yes. We review the design, structure, mobile experience, and technical requirements to plan an appropriate update."
+      "Can you update my existing website?",
+      "Yes. We review the design, structure, mobile usability, and technical setup to plan an appropriate revamp."
     ],
     [
       "Can I use my own domain or hosting?",
-      "Yes. We first review access, configuration, and compatibility before integration or deployment."
+      "Yes. We review access, configuration, and compatibility before integration or launch."
     ],
     [
       "Do you offer website maintenance?",
-      "Maintenance can include content updates, technical care, and backup planning. We agree on the scope and schedule together."
+      "Yes. Maintenance can include content updates, technical upkeep, and scheduled backups under an agreed plan."
     ],
     [
       "How is pricing determined?",
-      "Pricing depends on pages, design, features, integrations, and infrastructure. We confirm the details after understanding your needs."
+      "Pricing depends on page structure, design, features, integrations, and infrastructure needs. Exact figures are confirmed after reviewing your requirements."
     ],
     [
       "Can I explore previous projects?",
-      "Yes. Visit our work section for live previews where available, or open the original websites. Screenshots are labelled separately."
+      "Yes, in the Portfolio section. Launch Demo Website where embedding is supported, or open the original live sites."
     ]
   ],
   "title": "A website that fits your business.",
-  "description": "From website development to domains and ongoing care, we tailor our services to your needs.",
-  "servicesTitle": "How can we help?",
-  "workTitle": "Explore our work.",
-  "packagesTitle": "Find the right fit.",
-  "processTitle": "How we work.",
-  "faqTitle": "What would you like to know?",
-  "contactTitle": "Tell us about your project.",
-  "workDescription": "Choose a project to see its design or explore the live website where available.",
-  "packagesDescription": "Pricing and service details depend on your requirements and the proposal you approve.",
-  "contactDescription": "Find the service you need with TELLU Smart Search.",
+  "description": "Professional website development for SMEs, companies, and businesses looking to build a new site or revamp an existing one.",
+  "stackTitle": "Technologies we build with.",
+  "servicesTitle": "Website development, revamp, and ongoing care.",
+  "capabilitiesTitle": "Types of websites we build.",
+  "workTitle": "Selected website portfolio.",
+  "packagesTitle": "Choose the right website package.",
+  "estimatorTitle": "Estimate your website budget.",
+  "processTitle": "Workflow from consultation to launch.",
+  "faqTitle": "Frequently asked questions.",
+  "contactTitle": "Ready to discuss your business website?",
+  "workDescription": "Select a project to inspect the preview, try Demo Website, or visit the original site.",
+  "packagesDescription": "Reference packages for initial planning, from single-page landing pages to custom websites.",
+  "contactDescription": "Discuss your website needs on WhatsApp, try the cost estimator, or search for the right service.",
   "explore": "Explore services",
-  "work": "Explore our work",
+  "work": "View portfolio",
   "discuss": "Discuss your needs",
   "quote": "Request a quote",
   "start": "Start with Smart Search",
-  "directory": "Other projects",
+  "directory": "All projects",
   "navLabel": "Technology sections",
   "labels": [
     "01 / Services",
-    "02 / Work",
+    "02 / Portfolio",
     "03 / Website options",
     "04 / Process",
     "05 / Common questions",
@@ -280,7 +290,7 @@ export const technology = {
       "web-development"
     ],
     [
-      "Work",
+      "Portfolio",
       "selected-work"
     ],
     [
@@ -297,23 +307,24 @@ export const technology = {
     ]
   ],
   "metadata": {
-    "title": "Technology — Websites for Your Business",
-    "description": "Website development, redesign, domains, hosting, and ongoing care from TELLU. Explore projects and services for your business."
+    "title": "Professional Website Development | TELLU Technology",
+    "description": "Website development, website revamp, domains & hosting, and ongoing website care from TELLU Technology in Yogyakarta. Explore our portfolio, pricing, and cost estimator."
   }
 } satisfies Dictionary["technology"];
 
 export const metadata = {
-  "title": "TELLU — Websites, Content & Digital Services",
-  "description": "Explore website development, creative content, social media, and business software services from TELLU."
+  "title": "TELLU — Digital Agency, Web Development & Business Software",
+  "description": "TELLU is a digital agency in Yogyakarta offering website development, branding, social media management, and business software."
 } satisfies Dictionary["metadata"];
 
 export const searchLabels = {
-  "/technology#web-development": "Website development",
-  "/technology#domain": "Domains & hosting",
-  "/technology#website-revamp": "Website redesign",
-  "/technology#selected-work": "Our work",
-  "/creative#social-media": "Social media management",
-  "/creative#creative-agency": "Creative services",
-  "/business#products": "SaaS solutions",
+  "/technology#web-development": "New Website Development",
+  "/technology#domain": "Domains & Hosting",
+  "/technology#website-revamp": "Website Revamp",
+  "/technology#selected-work": "Website Portfolio",
+  "/technology#packages": "Website Packages & Pricing",
+  "/creative#social-media": "Social Media Management",
+  "/creative#creative-agency": "Branding & Creative Content",
+  "/business#products": "Business Software & SaaS",
   "/#tentang": "About TELLU"
 } satisfies Dictionary["searchLabels"];

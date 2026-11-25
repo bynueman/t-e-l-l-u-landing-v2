@@ -12,8 +12,8 @@ export function EcosystemOverview() {
   return (
     <section id="ekosistem" aria-labelledby="ecosystem-heading" className="ecosystem-story page-container">
       <div className="story-heading" data-reveal>
-        <p className="eyebrow">{copy.overviewLabel}</p>
         <h2 id="ecosystem-heading" className="display">{copy.overviewTitle}</h2>
+        <p className="max-w-sm text-sm sm:text-base text-muted leading-relaxed">{copy.overviewText}</p>
       </div>
       <div className="story-layout">
         <div className="story-visual" aria-hidden="true">

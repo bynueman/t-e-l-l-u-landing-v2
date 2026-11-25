@@ -1,28 +1,33 @@
 export const hero = {
   "title": "Apa yang ingin kamu wujudkan?",
-  "typingTitles": ["Butuh website untuk bisnismu?", "Ingin brand lebih dikenal?", "Mau konten yang lebih menarik?", "Butuh sistem untuk bisnismu?"],
-  "description": "Butuh website, konten kreatif, atau solusi digital untuk bisnismu? Temukan layanan yang sesuai dan mulai dari sini.",
+  "typingTitles": [
+    "Butuh website untuk bisnismu?",
+    "Ingin brand lebih dikenal?",
+    "Mau konten yang lebih menarik?",
+    "Perlu software untuk usahamu?"
+  ],
+  "description": "TELLU membantu kamu membangun website profesional, mengembangkan identitas brand, dan menyiapkan sistem digital sesuai kebutuhan bisnismu.",
   "stage": "Jelajahi apa yang kami kerjakan",
   "scroll": "Kenali TELLU",
   "label": "Layanan digital TELLU",
   "examples": [
     "Buat website bisnis",
-    "Kelola media sosial",
-    "Cari domain"
+    "Cek biaya website",
+    "Kelola media sosial"
   ],
   "pause": "Jeda gerak dekoratif dan animasi judul",
   "play": "Lanjutkan gerak dekoratif dan animasi judul",
   "nav": "Jelajahi layanan",
-  "signature": "Ruang untuk ide yang jadi nyata."
+  "signature": "Dari Yogyakarta untuk bisnis Indonesia."
 } as const;
 
 export const search = {
-  "placeholder": "Ceritakan yang kamu butuhkan...",
+  "placeholder": "Cari layanan, mis. buat website...",
   "label": "Cari layanan TELLU",
   "submit": "Cari layanan",
-  "empty": "Ceritakan dulu apa yang kamu butuhkan.",
-  "choices": "Ada beberapa layanan yang mungkin cocok. Pilih salah satu:",
-  "unknown": "Belum menemukan yang pas? Jelajahi layanan berikut:",
+  "empty": "Ketik layanan atau kebutuhan yang ingin kamu cari terlebih dahulu.",
+  "choices": "Beberapa layanan cocok dengan pencarianmu. Pilih tujuan yang paling sesuai:",
+  "unknown": "Pencarian belum mengarah ke layanan spesifik. Pilih kategori utama berikut:",
   "title": "Apa yang kamu butuhkan?",
   "close": "Tutup pencarian",
   "open": "Buka pencarian TELLU",
@@ -30,12 +35,14 @@ export const search = {
   "dock": "Cari layanan",
   "region": "Pencarian TELLU",
   "hint": "Enter untuk mencari",
-  "matched": "Layanan ditemukan. Membuka halaman…"
+  "matched": "Mengarahkan ke halaman layanan yang sesuai…"
 } as const;
 
 export const shared = {
+  "home": "Beranda",
   "services": "Layanan",
-  "work": "Karya",
+  "work": "Portfolio",
+  "blog": "Blog",
   "about": "Tentang",
   "contact": "Hubungi Kami",
   "main": "Navigasi utama",
@@ -43,7 +50,7 @@ export const shared = {
   "footer": "Navigasi footer",
   "open": "Buka menu",
   "close": "Tutup menu",
-  "description": "Website, konten kreatif, dan software untuk kebutuhan bisnismu.",
+  "description": "Jasa pembuatan website, branding dan media sosial, serta software bisnis dari TELLU di Yogyakarta.",
   "tagline": "Technology · Creative · Business",
   "start": "Cari layanan yang sesuai"
 } as const;
@@ -63,58 +70,58 @@ export const portfolio = {
   "preview": "Tampilan proyek",
   "screenshot": "Tangkapan layar website",
   "image": "Tangkapan layar proyek",
-  "explore": "Jelajahi website",
-  "pending": "Pratinjau menunggu izin dari pengelola website.",
+  "explore": "Demo Website",
+  "pending": "Pratinjau langsung sedang menunggu izin konfigurasi dari pengelola website.",
   "openProject": "Buka Website {name}",
-  "unavailable": "Pratinjau langsung belum tersedia. Kamu tetap bisa menjelajahi website aslinya.",
-  "requested": "Pratinjau dibuka dari website asli. Jika kosong atau diblokir, kembali ke tangkapan layar atau buka website di tab baru.",
-  "idle": "Website akan dimuat setelah kamu memilih Jelajahi website.",
-  "widthNote": "Tampilan mobile hanya menyesuaikan lebar pratinjau.",
+  "unavailable": "Pratinjau langsung belum tersedia. Kamu tetap bisa membuka website aslinya.",
+  "requested": "Pratinjau dibuka dari website asli. Jika halaman kosong atau diblokir, kembali ke tangkapan layar atau buka website di tab baru.",
+  "idle": "Pratinjau langsung akan dimuat setelah kamu menekan tombol Demo Website.",
+  "widthNote": "Tampilan mobile hanya menyesuaikan lebar area pratinjau.",
   "recovery": "Tidak tampil? ",
-  "back": "Kembali ke tampilan proyek"
+  "back": "Kembali ke tangkapan layar"
 } as const;
 
 export const home = {
   "serviceNames": [
     "Pembuatan website",
     "Domain & hosting",
-    "Layanan kreatif",
+    "Layanan kreatif & branding",
     "Pengelolaan media sosial",
-    "Solusi SaaS"
+    "Software & SaaS bisnis"
   ],
   "aboutLabel": "TELLU / Tentang kami",
   "aboutTitle": "Tiga bidang. Satu titik mulai.",
-  "aboutText": "Ide setiap bisnis berbeda. Di TELLU, website, karya kreatif, dan solusi software bertemu untuk membantu kamu mengambil langkah berikutnya.",
+  "aboutText": "Berbasis di Yogyakarta, TELLU menggabungkan layanan jasa pembuatan website, branding dan konten kreatif, serta pengembangan software bisnis dalam satu tim yang saling terhubung.",
   "servicesLabel": "Technology · Creative · Business",
-  "servicesTitle": "Banyak kemungkinan. Mulai dari idemu.",
-  "servicesText": "Temukan layanan untuk website, komunikasi brand, dan kebutuhan software bisnismu.",
-  "workLabel": "Karya / Technology",
-  "workTitle": "Ide yang sudah mengambil bentuk.",
-  "workText": "Kenali proyek pilihan kami dan jelajahi website yang mendukung pratinjau langsung.",
-  "workCta": "Lihat hasil kerja kami",
+  "servicesTitle": "Jelajahi layanan sesuai kebutuhanmu.",
+  "servicesText": "Temukan layanan website, komunikasi brand, dan sistem kerja bisnis dalam satu tempat.",
+  "workLabel": "Portfolio / Technology",
+  "workTitle": "Proyek website yang sudah berjalan.",
+  "workText": "Lihat beberapa website yang telah kami kerjakan, lengkap dengan tampilan pratinjau dan tautan ke website aslinya.",
+  "workCta": "Lihat Portfolio Website",
   "contactLabel": "Mulai dari sini",
   "contactTitle": "Ceritakan rencanamu.",
-  "contactText": "Website, konten, atau software. Langkah pertama cukup dengan menceritakan kebutuhanmu.",
+  "contactText": "Website, branding, atau software bisnis. Mulai dengan menceritakan kebutuhanmu.",
   "contactCta": "Cari layanan",
   "overviewLabel": "01 / Layanan TELLU",
-  "overviewTitle": "Dari kebutuhanmu, ke langkah yang tepat.",
-  "overviewText": "Website untuk bisnismu, konten untuk audiensmu, dan software untuk kebutuhan kerja.",
+  "overviewTitle": "Tiga ekosistem untuk kebutuhan bisnismu.",
+  "overviewText": "Pilih layanan yang paling dibutuhkan sekarang, atau gabungkan ketiganya sesuai perkembangan usaha.",
   "overviewDescriptions": [
-    "Website yang memperkenalkan bisnismu dengan jelas. Dari membangun yang baru sampai merawat yang sudah ada.",
-    "Beri ruang untuk cerita brand-mu. Lewat identitas visual, konten kreatif, dan media sosial yang dikelola.",
-    "Temukan solusi SaaS untuk mendukung pekerjaan bisnismu. Mulai dari kebutuhan dan fungsi yang kamu perlukan."
+    "Jasa pembuatan website profesional, pembaruan website lama, penyiapan domain dan hosting, serta perawatan teknis berkala.",
+    "Perancangan identitas visual brand, produksi materi konten, dan pengelolaan media sosial agar komunikasi bisnismu konsisten.",
+    "Pengembangan software bisnis dan produk SaaS untuk merapikan pencatatan, pelaporan, dan alur kerja operasional tim."
   ],
   "overviewServices": [
     "Website · Domain · Perawatan",
-    "Konten · Media sosial",
-    "Solusi SaaS"
+    "Branding · Konten · Media sosial",
+    "Software · SaaS bisnis"
   ],
-  "workProvenance": "Proyek website dari perjalanan YUKWebsite.online, kini bagian dari TELLU Technology.",
+  "workProvenance": "Portofolio pilihan dari divisi TELLU Technology.",
   "sceneCaption": "Satu tempat untuk mulai",
   "storyLabels": [
-    "Bangun kehadiran digital",
-    "Bentuk cerita brand-mu",
-    "Dukung cara kerjamu"
+    "Bangun website bisnismu",
+    "Rapikan cerita brand-mu",
+    "Dukung operasional kerja"
   ],
   "explore": "Jelajahi",
   "faqLabel": "Sebelum mulai",
@@ -122,19 +129,19 @@ export const home = {
   "faqs": [
     [
       "Belum tahu harus mulai dari mana?",
-      "Ceritakan kebutuhanmu di kolom pencarian. TELLU akan mengarahkan kamu ke layanan yang sesuai, atau menawarkan beberapa pilihan untuk dijelajahi."
+      "Tuliskan kebutuhanmu di kolom pencarian di atas, misalnya ingin membuat website atau mengelola media sosial. Kamu juga bisa langsung menghubungi kami lewat WhatsApp untuk diskusi awal."
     ],
     [
       "Bisakah TELLU memperbarui website yang sudah ada?",
-      "Bisa. Layanan Website Revamp dimulai dari meninjau tampilan, struktur, responsivitas, dan kebutuhan teknis website kamu."
+      "Bisa. Layanan Revamp Website dimulai dari meninjau tampilan, struktur halaman, kecepatan akses, dan kebutuhan teknis website yang sudah ada sebelum diperbarui."
     ],
     [
       "Apakah tersedia layanan konten dan media sosial?",
-      "Creative mencakup layanan kreatif dan pengelolaan media sosial. Pilih layanan sesuai kebutuhan komunikasi brand dan konten bisnismu."
+      "Tersedia di divisi TELLU Creative, mencakup perancangan identitas brand, produksi konten visual, serta pengelolaan kanal media sosial."
     ],
     [
       "Bagaimana biaya dan lingkup proyek ditentukan?",
-      "Kebutuhan halaman, desain, fungsi, dan integrasi menjadi dasar pembahasan. Biaya dan lingkup dikonfirmasi setelah kebutuhan dipahami; pencarian di sini tidak memberikan penawaran otomatis."
+      "Biaya dan lingkup proyek ditentukan berdasarkan jumlah halaman, desain, fitur khusus, serta kebutuhan domain atau integrasi. Untuk website, kamu bisa melihat rincian paket dan simulasi estimasi awal di halaman Technology sebelum meminta penawaran resmi."
     ]
   ]
 } as const;
@@ -144,63 +151,63 @@ export const technology = {
     [
       "web-development",
       "Pembuatan website",
-      "Kami buat website yang menjelaskan bisnismu dan mudah digunakan pelanggan.",
+      "Website baru untuk company profile, landing page, dan bisnis yang ingin mudah ditemukan pelanggan.",
       [
-        "Halaman promosi & profil perusahaan",
-        "Website bisnis & fungsi custom",
-        "Pengembangan responsif",
-        "Struktur yang ramah mesin pencari & perhatian pada kecepatan"
+        "Landing page promosi & company profile",
+        "Website bisnis & fungsi khusus",
+        "Tampilan responsif ponsel hingga desktop",
+        "Struktur ramah mesin pencari & perhatian pada kecepatan"
       ]
     ],
     [
       "website-revamp",
-      "Pembaruan website",
-      "Perbarui tampilan dan cara kerja website agar sesuai dengan kebutuhanmu sekarang.",
+      "Revamp website",
+      "Pembaruan tampilan, struktur, dan kode website lama agar sesuai dengan kebutuhan bisnismu sekarang.",
       [
-        "Pembaruan desain & pengalaman pengguna",
-        "Penyempurnaan struktur website",
-        "Perbaikan responsivitas",
-        "Modernisasi teknis & optimasi performa"
+        "Peninjauan antarmuka & alur informasi",
+        "Penyempurnaan struktur halaman",
+        "Perbaikan tampilan mobile & tablet",
+        "Pembaruan kode & pengaturan 301 redirect"
       ]
     ],
     [
       "domain",
       "Domain & hosting",
-      "Kami bantu menyiapkan domain dan hosting untuk websitemu.",
+      "Penyiapan alamat domain, hosting, konfigurasi DNS, dan SSL agar websitemu siap diakses online.",
       [
-        "Konsultasi & bantuan registrasi domain",
-        "Konfigurasi DNS & integrasi hosting",
-        "Setup hosting & SSL",
-        "Dukungan deployment"
+        "Bantuan pemilihan & registrasi domain",
+        "Konfigurasi DNS & nameserver",
+        "Setup hosting & sertifikat SSL",
+        "Dukungan penayangan & migrasi"
       ]
     ],
     [
       "maintenance",
       "Perawatan website",
-      "Rawat website melalui pembaruan dan dukungan sesuai kesepakatan.",
+      "Pembaruan konten, backup terjadwal, dan dukungan teknis berkala sesuai cakupan yang disepakati.",
       [
-        "Pembaruan website & konten",
-        "Pemeliharaan teknis & keamanan",
-        "Perencanaan backup",
-        "Dukungan sesuai cakupan yang disepakati"
+        "Pembaruan konten & gambar berkala",
+        "Pemeriksaan teknis & keamanan dasar",
+        "Pencadangan (backup) terjadwal",
+        "Dukungan perbaikan teknis sesuai kesepakatan"
       ]
     ]
   ],
   "packages": [
     [
       "Starter",
-      "Langkah pertama yang terarah.",
-      "Untuk landing page, kehadiran online sederhana, dan lingkup website yang ringkas."
+      "Untuk kehadiran online yang ringkas.",
+      "Untuk landing page promosi, personal brand, dan UMKM yang baru memulai dengan satu halaman terarah."
     ],
     [
       "Business",
-      "Ruang untuk cerita bisnis kamu.",
-      "Untuk profil perusahaan dan website bisnis dengan beberapa halaman serta fungsi yang lebih terstruktur."
+      "Untuk company profile dan bisnis berkembang.",
+      "Untuk profil perusahaan multi-halaman yang membutuhkan struktur konten lengkap serta panel admin CMS."
     ],
     [
       "Custom Solution",
-      "Dibangun mengikuti kebutuhan.",
-      "Untuk integrasi lanjutan, fungsi khusus, dan kebutuhan bisnis yang lebih kompleks."
+      "Dibangun mengikuti alur kebutuhan khusus.",
+      "Untuk website dengan fitur kustom, katalog e-commerce, sistem booking, atau integrasi sistem lain."
     ]
   ],
   "process": [
@@ -224,7 +231,7 @@ export const technology = {
   "faqs": [
     [
       "Website seperti apa yang bisa dikembangkan TELLU?",
-      "Landing page, company profile, website bisnis, serta fungsi khusus. Kelayakan teknis dan cakupan dibahas sesuai kebutuhan proyek."
+      "Landing page, company profile, website katalog, serta fungsi khusus. Kelayakan teknis dan cakupan dibahas sesuai kebutuhan proyek."
     ],
     [
       "Bisakah TELLU memperbarui website lama?",
@@ -232,11 +239,11 @@ export const technology = {
     ],
     [
       "Bisakah saya memakai domain atau hosting sendiri?",
-      "Bisa. Akses, konfigurasi, dan kompatibilitas layanan perlu ditinjau sebelum integrasi atau deployment."
+      "Bisa. Akses, konfigurasi, dan kompatibilitas layanan perlu ditinjau sebelum integrasi atau penayangan."
     ],
     [
       "Apakah tersedia maintenance?",
-      "Maintenance dapat mencakup pembaruan konten, pemeliharaan teknis, dan perencanaan backup. Cakupan serta jadwal ditentukan bersama."
+      "Tersedia. Maintenance dapat mencakup pembaruan konten, pemeliharaan teknis, dan perencanaan backup sesuai jadwal yang disepakati."
     ],
     [
       "Bagaimana harga proyek ditentukan?",
@@ -244,30 +251,33 @@ export const technology = {
     ],
     [
       "Bisakah saya menjelajahi proyek sebelumnya?",
-      "Ya, melalui Selected Works. Mulai pratinjau untuk website yang mendukung embed atau buka website asli. Screenshot ditkamui secara terpisah."
+      "Ya, melalui bagian Portfolio. Kamu bisa membuka Demo Website untuk situs yang mendukung embed atau mengunjungi website aslinya."
     ]
   ],
   "title": "Website yang pas untuk bisnismu.",
-  "description": "Dari pembuatan website hingga domain dan perawatannya, kami bantu sesuaikan dengan kebutuhanmu.",
-  "servicesTitle": "Apa yang bisa kami bantu?",
-  "workTitle": "Lihat hasil kerja kami.",
-  "packagesTitle": "Pilih sesuai kebutuhan.",
-  "processTitle": "Begini cara kami bekerja.",
-  "faqTitle": "Ada yang ingin kamu tanyakan?",
-  "contactTitle": "Ceritakan rencanamu.",
-  "workDescription": "Pilih proyek untuk melihat tampilannya atau menjelajahi website langsung jika tersedia.",
-  "packagesDescription": "Harga dan detail layanan disesuaikan dengan kebutuhan serta penawaran yang kamu setujui.",
-  "contactDescription": "Cari layanan yang kamu butuhkan melalui Smart Search TELLU.",
+  "description": "Jasa pembuatan website profesional untuk UMKM, perusahaan, dan bisnis yang ingin membangun website baru atau memperbarui website lama.",
+  "stackTitle": "Teknologi yang kami gunakan.",
+  "servicesTitle": "Layanan pembuatan, pembaruan, hingga perawatan website.",
+  "capabilitiesTitle": "Jenis website yang dapat dibangun.",
+  "workTitle": "Portfolio website pilihan.",
+  "packagesTitle": "Pilih paket website untuk bisnismu.",
+  "estimatorTitle": "Hitung estimasi biaya websitemu.",
+  "processTitle": "Alur pengerjaan dari konsultasi hingga tayang.",
+  "faqTitle": "Pertanyaan yang sering diajukan.",
+  "contactTitle": "Siap mendiskusikan website bisnismu?",
+  "workDescription": "Pilih proyek untuk melihat pratinjau tampilan, mencoba Demo Website, atau membuka situs aslinya.",
+  "packagesDescription": "Pilihan paket sebagai acuan awal sebelum konsultasi, mulai dari landing page satu halaman hingga website dengan fungsi khusus.",
+  "contactDescription": "Konsultasikan kebutuhan website lewat WhatsApp, hitung simulasi biaya, atau cari layanan yang kamu butuhkan.",
   "explore": "Jelajahi layanan",
-  "work": "Lihat karya",
+  "work": "Lihat portfolio",
   "discuss": "Diskusikan kebutuhan",
   "quote": "Minta penawaran",
   "start": "Mulai dengan Smart Search",
-  "directory": "Proyek lainnya",
+  "directory": "Daftar semua proyek",
   "navLabel": "Bagian Technology",
   "labels": [
     "01 / Layanan",
-    "02 / Karya",
+    "02 / Portfolio",
     "03 / Pilihan website",
     "04 / Proses",
     "05 / Pertanyaan umum",
@@ -279,7 +289,7 @@ export const technology = {
       "web-development"
     ],
     [
-      "Karya",
+      "Portfolio",
       "selected-work"
     ],
     [
@@ -296,23 +306,24 @@ export const technology = {
     ]
   ],
   "metadata": {
-    "title": "Technology — Website untuk Bisnismu",
-    "description": "Pembuatan dan pembaruan website, domain, hosting, serta perawatan website TELLU. Lihat proyek dan pilihan layanan untuk bisnismu."
+    "title": "Jasa Pembuatan Website Profesional | TELLU Technology",
+    "description": "Jasa pembuatan website profesional, revamp website lama, domain & hosting, dan perawatan website dari TELLU Technology di Yogyakarta. Lihat portfolio, paket harga, dan simulasi estimasi biaya."
   }
 } as const;
 
 export const metadata = {
-  "title": "TELLU — Website, Konten & Solusi Digital",
-  "description": "Temukan layanan website, konten kreatif, media sosial, dan software bisnis dari TELLU."
+  "title": "TELLU — Digital Agency, Jasa Website & Solusi Bisnis",
+  "description": "TELLU adalah digital agency di Yogyakarta yang melayani jasa pembuatan website profesional, branding, pengelolaan media sosial, dan software bisnis."
 } as const;
 
 export const searchLabels = {
-  "/technology#web-development": "Pembuatan website",
-  "/technology#domain": "Domain & hosting",
-  "/technology#website-revamp": "Pembaruan website",
-  "/technology#selected-work": "Hasil kerja kami",
-  "/creative#social-media": "Pengelolaan media sosial",
-  "/creative#creative-agency": "Layanan kreatif",
-  "/business#products": "Solusi SaaS",
+  "/technology#web-development": "Pembuatan Website Baru",
+  "/technology#domain": "Domain & Hosting",
+  "/technology#website-revamp": "Revamp Website",
+  "/technology#selected-work": "Portfolio Website",
+  "/technology#packages": "Paket & Harga Website",
+  "/creative#social-media": "Pengelolaan Media Sosial",
+  "/creative#creative-agency": "Branding & Konten Kreatif",
+  "/business#products": "Software & SaaS Bisnis",
   "/#tentang": "Tentang TELLU"
 } as const;

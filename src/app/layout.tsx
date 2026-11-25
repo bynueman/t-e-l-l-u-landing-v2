@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import { SiteFooter } from "@/components/layout/site-footer";
-import { SiteHeader } from "@/components/layout/site-header";
-import { SearchProvider } from "@/components/search/search-provider";
+import { PublicChrome } from "@/components/layout/public-chrome";
 import { siteConfig, siteUrl } from "@/config/site";
 import "./globals.css";
 
@@ -22,13 +20,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="id">
+    <html lang="id" data-scroll-behavior="smooth">
       <body className="min-h-screen font-sans antialiased">
-        <SearchProvider>
-          <SiteHeader />
-          {children}
-          <SiteFooter />
-        </SearchProvider>
+        <PublicChrome>{children}</PublicChrome>
       </body>
     </html>
   );

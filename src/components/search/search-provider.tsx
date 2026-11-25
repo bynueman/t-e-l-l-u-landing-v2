@@ -7,6 +7,7 @@ import { SmartSearch } from "./smart-search";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { BrandSymbol } from "@/components/layout/brand-mark";
+import { Icon } from "@/components/ui/icon";
 
 gsap.registerPlugin(useGSAP);
 
@@ -104,7 +105,7 @@ function FloatingSearch({ pathname }: { pathname: string }) {
         <div ref={dock} className="floating-search-dock" data-visible={show} inert={!show} aria-hidden={!show}>
           {expanded && (
             <div id="floating-search-panel" className="search-panel floating-search-panel" role="region" aria-label={copy.region} onKeyDown={(event) => { if (event.key === "Escape") close(); }}>
-              <div className="mb-4 flex items-center justify-between gap-4"><p className="font-bold">{copy.title}</p><button type="button" onClick={close} aria-label={copy.close} className="rounded-full px-2 py-1 text-xl">×</button></div>
+              <div className="mb-4 flex items-center justify-between gap-4"><p className="font-bold">{copy.title}</p><button type="button" onClick={close} aria-label={copy.close} className="inline-flex h-8 w-8 items-center justify-center rounded-full text-muted transition-colors hover:bg-black/[0.04] hover:text-foreground"><Icon name="x" size={16} /></button></div>
               <SmartSearch compact inputRef={input} onNavigate={() => setOpen(false)} />
             </div>
           )}

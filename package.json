@@ -7,12 +7,21 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "cms:migrate": "node scripts/cms-cli.mjs migrate",
+    "cms:init-owner": "node scripts/cms-cli.mjs init-owner",
+    "cms:backup": "node scripts/cms-cli.mjs backup",
+    "cms:restore": "node scripts/cms-cli.mjs restore"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
+    "@tiptap/extension-image": "^3.35.0",
+    "@tiptap/extension-table": "^3.35.0",
+    "@tiptap/pm": "^3.35.0",
+    "@tiptap/react": "^3.35.0",
+    "@tiptap/starter-kit": "^3.35.0",
     "gsap": "^3.15.0",
-    "next": "16.4.2",
+    "next": "^16.4.6",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
@@ -23,7 +32,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.4.2",
+    "eslint-config-next": "^16.4.6",
     "postcss": "^8.5.32",
     "tailwindcss": "^4",
     "typescript": "^5"

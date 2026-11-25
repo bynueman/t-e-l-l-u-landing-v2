@@ -11,9 +11,9 @@ export function Hero() {
     <section id="hero" aria-label={copy.label} className="hero-section">
       <HeroPixelGrid />
       <div aria-hidden="true" className="hero-ornaments">
-        <TelluFloatingAccent variant="technology" className="hero-ornament ornament-one" />
-        <TelluFloatingAccent variant="creative" className="hero-ornament ornament-two" />
-        <TelluFloatingAccent variant="business" className="hero-ornament ornament-three" />
+        <TelluFloatingAccent tone="charcoal" className="hero-ornament ornament-one" />
+        <TelluFloatingAccent tone="muted" className="hero-ornament ornament-two" />
+        <TelluFloatingAccent tone="subtle" className="hero-ornament ornament-three" />
       </div>
       <div className="page-container hero-content">
         <TypingHeadline messages={[copy.title, ...copy.typingTitles]} />

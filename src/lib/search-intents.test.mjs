@@ -5,12 +5,16 @@ import { matchSearch, searchDestinations, shouldSubmitPrompt } from "./search-in
 test("Indonesian and English intents route to real destinations", () => {
   for (const [query, href] of [
     ["buat website perusahaan", "/technology#web-development"],
+    ["Berapa biaya bikin website?", "/technology#packages"],
+    ["Mau memperbarui website lama", "/technology#website-revamp"],
     ["beli domain", "/technology#domain"],
     ["revamp website", "/technology#website-revamp"],
     ["lihat portfolio website", "/technology#selected-work"],
     ["kelola instagram", "/creative#social-media"],
+    ["Butuh bantuan mengelola Instagram", "/creative#social-media"],
     ["mau bikin konten", "/creative#creative-agency"],
     ["punya aplikasi bisnis?", "/business#products"],
+    ["Saya ingin membuat sistem pencatatan bisnis", "/business#products"],
     ["apa itu TELLU?", "/#tentang"],
     ["company website", "/technology#web-development"],
   ]) {

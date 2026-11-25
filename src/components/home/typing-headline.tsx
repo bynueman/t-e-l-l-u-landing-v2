@@ -12,49 +12,73 @@ export function TypingHeadline({ messages }: { messages: readonly string[] }) {
   const paused = useMotionPaused();
 
   useEffect(() => {
-    const element = scope.current!;
-    const value = text.current!;
-    const hero = element.closest("#hero")!;
+    let active = true;
+    if (!scope.current || !text.current || !guide.current) return;
+    const element: HTMLDivElement = scope.current;
+    const value: HTMLSpanElement = text.current;
+    const hero = element.closest("#hero");
+    if (!hero) return;
+
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
     let state: TypingState = { index: 0, length: messages[0].length, phase: "hold" };
     let timer: number | undefined, deadline = 0, remaining: number = typingTiming.hold, visible = false;
+
     function stop() {
       if (timer !== undefined) {
         remaining = Math.max(0, deadline - performance.now());
-        window.clearTimeout(timer); timer = undefined;
+        window.clearTimeout(timer);
+        timer = undefined;
       }
     }
+
     function sync() {
+      if (!active || !scope.current || !text.current || !guide.current) return;
       element.dataset.ready = reduced.matches ? "false" : "true";
       if (reduced.matches) {
         if (document.activeElement === element.querySelector("button")) (document.activeElement as HTMLElement).blur();
-        stop(); state = { index: 0, length: messages[0].length, phase: "hold" };
-        remaining = typingTiming.hold; value.textContent = messages[0]; element.dataset.phase = "hold";
-        guide.current!.textContent = "";
-      } else if (!visible || document.hidden || element.dataset.paused === "true") stop();
-      else if (timer === undefined) {
+        stop();
+        state = { index: 0, length: messages[0].length, phase: "hold" };
+        remaining = typingTiming.hold;
+        value.textContent = messages[0];
+        element.dataset.phase = "hold";
+        if (guide.current) guide.current.textContent = "";
+      } else if (!visible || document.hidden || element.dataset.paused === "true") {
+        stop();
+      } else if (timer === undefined) {
         deadline = performance.now() + remaining;
         timer = window.setTimeout(() => {
           timer = undefined;
+          if (!active || !scope.current || !text.current || !guide.current) return;
           state = nextTypingState(state, messages);
           const next = messages[state.index].slice(0, state.length);
           if (value.textContent !== next) value.textContent = next;
-          guide.current!.textContent = messages[state.index].slice(state.length);
+          if (guide.current) {
+            guide.current.textContent = messages[state.index].slice(state.length);
+          }
           element.dataset.phase = state.phase;
           remaining = typingTiming[state.phase];
           sync();
         }, remaining);
       }
     }
-    const observer = new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; sync(); });
+
+    const observer = new IntersectionObserver(([entry]) => {
+      visible = entry?.isIntersecting ?? false;
+      sync();
+    });
     observer.observe(hero);
     reduced.addEventListener("change", sync);
     document.addEventListener("visibilitychange", sync);
     syncPlayback.current = sync;
     sync();
+
     return () => {
-      stop(); observer.disconnect(); reduced.removeEventListener("change", sync);
-      document.removeEventListener("visibilitychange", sync); syncPlayback.current = null;
+      active = false;
+      stop();
+      observer.disconnect();
+      reduced.removeEventListener("change", sync);
+      document.removeEventListener("visibilitychange", sync);
+      syncPlayback.current = null;
     };
   }, [messages]);
 

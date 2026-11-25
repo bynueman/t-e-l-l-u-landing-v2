@@ -13,7 +13,7 @@ export function deformPixel(x: number, y: number, pointerX: number, pointerY: nu
   return {
     x: (-dy * .94 + dx * .24) / distance * 12 * falloff,
     y: (dx * .94 + dy * .24) / distance * 12 * falloff,
-    rotation: .065 * falloff,
-    opacity: .065 * falloff,
+    rotation: .085 * falloff,
+    opacity: .085 * falloff,
   };
 }

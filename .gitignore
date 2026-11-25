@@ -51,6 +51,9 @@ next-env.d.ts
 /playwright-report/
 *.log
 
+# Persistent local CMS database, uploaded media, and backups
+/data/
+
 # Unused scaffold icons; retain local copies without publishing default branding
 /public/file.svg
 /public/globe.svg

@@ -1,0 +1,30 @@
+{
+  "archivedAt": "2026-11-25",
+  "note": "Initial demonstration articles archived outside active public Blog registry during CMS Phase 1 migration. Not automatically imported into SQLite.",
+  "posts": [
+    {
+      "slug": "biaya-pembuatan-website-bisnis",
+      "title": "Berapa Biaya Pembuatan Website untuk Bisnis? Panduan Investasi Digital",
+      "category": "technology",
+      "publishedAt": "24 November 2026"
+    },
+    {
+      "slug": "mengapa-identitas-visual-penting-untuk-brand",
+      "title": "Mengapa Identitas Visual Lebih dari Sekadar Logo untuk Sebuah Brand?",
+      "category": "creative",
+      "publishedAt": "22 November 2026"
+    },
+    {
+      "slug": "kapan-bisnis-membutuhkan-sistem-digital",
+      "title": "Kapan Bisnis Anda Mulai Membutuhkan Sistem dan Software Digital?",
+      "category": "business",
+      "publishedAt": "20 November 2026"
+    },
+    {
+      "slug": "website-baru-atau-revamp",
+      "title": "Website Baru atau Revamp: Mana Pilihan Tepat untuk Bisnis Anda?",
+      "category": "technology",
+      "publishedAt": "18 November 2026"
+    }
+  ]
+}
