@@ -86,10 +86,6 @@ button, input { font: inherit; }
 .typing-caret { display: inline-block; width: 2px; height: .72em; margin-left: .06em; vertical-align: .02em; background: currentColor; opacity: .55; }
 .hero-heading[data-phase="hold"] .typing-caret, .hero-heading[data-paused="true"] .typing-caret { visibility: hidden; }
 .typing-tail { opacity: .18; }
-.motion-toggle { position: fixed; left: max(1rem, env(safe-area-inset-left)); bottom: max(1rem, env(safe-area-inset-bottom)); z-index: 44; display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid #e2dfd6; border-radius: 50%; background: #ffffff; color: #62655c; visibility: hidden; cursor: pointer; box-shadow: 0 4px 14px rgba(32, 33, 31, 0.04); }
-[data-motion-ready="true"] > .motion-toggle { visibility: visible; }
-.motion-toggle:hover { background: #f7f6f0; }
-.motion-toggle .icon { width: 15px; height: 15px; }
 .icon { flex: none; vertical-align: -.15em; }
 .icon-badge { display: inline-flex; flex: none; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; background: #f3f2eb; color: #62665c; }
 .icon-tone-technology { background: #fff0dc; color: #9b5716; }
@@ -400,7 +396,6 @@ button, input { font: inherit; }
   .featured-project:hover .featured-image img { transform: scale(1.012); }
 }
 @media (prefers-reduced-motion: reduce) {
-  .motion-toggle { display: none; }
   .typing-caret { visibility: hidden; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }

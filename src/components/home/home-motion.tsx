@@ -1,11 +1,9 @@
 "use client";
 
-import { createContext, useContext, useEffect, useRef, useState } from "react";
+import { createContext, useContext, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import { Icon } from "@/components/ui/icon";
-import { hero as copy } from "@/i18n/dictionaries/id";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 const MotionPaused = createContext(false);
@@ -13,8 +11,6 @@ export const useMotionPaused = () => useContext(MotionPaused);
 
 export function HomeMotion({ children }: { children: React.ReactNode }) {
   const scope = useRef<HTMLDivElement>(null);
-  const [paused, setPaused] = useState(false);
-  useEffect(() => { scope.current?.dispatchEvent(new Event("tellu-motion-change")); }, [paused]);
 
   useGSAP(() => {
     const media = gsap.matchMedia();
@@ -143,19 +139,9 @@ export function HomeMotion({ children }: { children: React.ReactNode }) {
   }, { scope });
 
   return (
-    <MotionPaused.Provider value={paused}>
-      <div ref={scope} data-motion-paused={paused}>
+    <MotionPaused.Provider value={false}>
+      <div ref={scope}>
         {children}
-        <button
-          type="button"
-          className="motion-toggle"
-          aria-label={paused ? copy.play : copy.pause}
-          title={paused ? copy.play : copy.pause}
-          aria-pressed={paused}
-          onClick={() => setPaused(value => !value)}
-        >
-          <Icon name={paused ? "play" : "pause"} />
-        </button>
       </div>
     </MotionPaused.Provider>
   );
